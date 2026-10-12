@@ -76,9 +76,36 @@
   });
  });
  const form=root.querySelector('.r3-form'),submit=form.querySelector('.form-submit'),status=form.querySelector('.form-status');
+ const brief=form.querySelector('[data-r3-brief]'),editor=brief.querySelector('[data-r3-editor]'),exportStatus=brief.querySelector('[data-r3-export-status]');
+ let generation=0,exportRequest=0;
+ function refreshHeight(){
+  const position=window.scrollY;
+  window.ScrollTrigger?.refresh();
+  window.scrollTo({top:position,behavior:'instant'});
+ }
+ function invalidate(){
+  const changesHeight=!brief.hidden||Boolean(status.textContent);
+  generation++;exportRequest++;brief.hidden=true;editor.value='';status.textContent='';exportStatus.textContent='';
+  if(changesHeight)refreshHeight();
+ }
+ function exportMessage(message,isError=false){
+  exportStatus.classList.toggle('is-error',isError);exportStatus.textContent=message;refreshHeight();
+ }
+ function currentText(){
+  if(brief.hidden)return null;
+  const text=editor.value;
+  if(!text.trim()){exportMessage(copy.draftEmpty,true);editor.focus();return null;}
+  return text;
+ }
+ function selectText(){editor.focus();editor.select();}
  submit.disabled=false;
  form.addEventListener('submit',event=>event.preventDefault());
+ form.addEventListener('input',event=>{
+  if(['name','contact','message'].includes(event.target.name))invalidate();
+  else if(event.target===editor){generation++;exportRequest++;exportStatus.textContent='';}
+ });
  submit.addEventListener('click',()=>{
+  generation++;exportRequest++;
   const errors=[];
   ['name','contact','message'].forEach(name=>{
    const input=form.elements.namedItem(name),value=input.value.trim();
@@ -96,6 +123,37 @@
   });
   status.classList.toggle('is-error',errors.length>0);
   status.textContent=errors.length?copy.errors.summary:copy.success;
-  if(errors.length)errors[0].focus();else status.focus({preventScroll:true});
+  exportStatus.textContent='';
+  if(errors.length){brief.hidden=true;editor.value='';refreshHeight();errors[0].focus();return;}
+  const fields={title:copy.briefTitle,messageLabel:copy.messageLabel};
+  ['name','contact','message'].forEach(name=>{fields[name]=form.elements.namedItem(name).value.trim();});
+  editor.value=copy.exportTemplate.replace(/\{(title|name|contact|messageLabel|message)\}/g,(_,key)=>fields[key]);
+  brief.hidden=false;refreshHeight();status.focus({preventScroll:true});
  });
+ brief.querySelector('[data-r3-copy]').addEventListener('click',async()=>{
+  const text=currentText();if(text===null)return;
+  const version=generation,job=++exportRequest;
+  const current=()=>version===generation&&job===exportRequest&&!brief.hidden&&editor.value===text;
+  try {
+   if(!navigator.clipboard?.writeText)throw new Error('Clipboard unavailable');
+   await navigator.clipboard.writeText(text);
+   if(current())exportMessage(copy.copySuccess);
+  }catch {
+   if(current()){exportMessage(copy.copyError,true);selectText();}
+  }
+ });
+ brief.querySelector('[data-r3-download]').addEventListener('click',()=>{
+  const text=currentText();if(text===null)return;
+  exportRequest++;
+  let url;
+  try {
+   url=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));
+   const link=document.createElement('a');link.href=url;link.download=copy.filename;
+   document.body.append(link);
+   try {link.click();}finally{link.remove();}
+   exportMessage(copy.downloadSuccess);
+  }catch {exportMessage(copy.downloadError,true);selectText();}
+  finally {if(url)setTimeout(()=>URL.revokeObjectURL(url),1000);}
+ });
+ brief.querySelector('[data-r3-select]').addEventListener('click',()=>{exportRequest++;if(currentText()!==null)selectText();});
 })();
