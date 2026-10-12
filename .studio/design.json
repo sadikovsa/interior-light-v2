@@ -289,7 +289,7 @@
     "source_provenance_retained": true,
     "case_truth": "concepts and studies, not asserted completed client projects",
     "override_scope": "only current3activeinterior-v2 plus comparison; historical source/reports retained",
-    "authorization": "work/interior-cleanup/00-request.md"
+    "authorization": "projects/interiors/qa-cleanup/00-request.md"
   },
   "scoped_css_additions": {
     ".content-r3 .r3-brief:not([hidden])": "display:grid;gap:20px",
@@ -339,10 +339,10 @@
   },
   "verification": {
     "scope": "focused current cleanup regression; no fullQA/Lighthouse/FPS/fieldINP rerun",
-    "report": "work/interior-cleanup/05-qa-report.md",
+    "report": "projects/interiors/qa-cleanup/05-qa-report.md",
     "status": "QA_PASS_WITH_NOTES",
-    "static": "work/interior-cleanup/static-result.json semanticmarkers0/localrefs/source-dist/deterministic builds/geometry/font/raster/vendor/main.js preserved",
-    "publication": "root proof required for cleanup deployed bytes; existing URLs do not prove new release",
+    "static": "projects/interiors/qa-cleanup/static-result.json semanticmarkers0/localrefs/source-dist/deterministic builds/geometry/font/raster/vendor/main.js preserved",
+    "publication": "VERIFIED_LIVE: PUBLICATION.json plus commonqa-cleanup/live/result.json andlive-http-report.json",
     "open_defects": {
       "blocker": 0,
       "major": 0,
@@ -367,7 +367,7 @@
     "clipboard_async_races": "heldpromise edit and originalfieldchange/regenerate PASS6x2",
     "no_post_storage": "nonGET0/local-sessionstorage unchanged; Enter no navigation",
     "not_checked": [
-      "dedicated Select-button action (shared handler tested via failure)",
+      "Select-button action verified in12deployedcontexts",
       "clipboard races separately in reducedcontext",
       "new deployed bytes before root verification",
       "new fullaxe/allcontrast/keyboard/targets",
@@ -375,10 +375,13 @@
       "all animationframes/FPS/perceptualsmoothness",
       "new Lighthouse/fieldINP/CWV/securitypentest"
     ],
-    "results": "work/interior-cleanup/qa/hosting-regression.json",
-    "readonly_results": "work/interior-cleanup/qa/static-readonly.json",
+    "results": "projects/interiors/qa-cleanup/qa/hosting-regression.json",
+    "readonly_results": "projects/interiors/qa-cleanup/qa/static-readonly.json",
     "capture_count": 54,
-    "reviewer": "separate fresh reviewer; not documentervisual inspection",
-    "motion_recording": "separate QA task; manifest/publicationproof recorded by root"
+    "reviewer": "27freshcaptures inspected by independentreviewer; scopedSHIP deliveredmessages transcribed after runtimeusage limit",
+    "motion_recording": "separate QA task; manifest/publicationproof recorded by root",
+    "live_normal_contexts": 12,
+    "live_fallback_contexts": 6,
+    "live_select_button": "PASS12contexts"
   }
 }

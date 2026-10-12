@@ -8,11 +8,11 @@
   "root_checkpoint_retained": true,
   "planned_repository": "sadikovsa/interior-light-v2",
   "planned_pages_url": "https://sadikovsa.github.io/interior-light-v2/",
-  "publication_status": "edited_source_pending_root_publication_verification",
+  "publication_status": "VERIFIED_LIVE",
   "source_inventory": "SOURCE-INVENTORY.json",
   "public_build_inventory": "BUILD-INVENTORY.json",
   "live_pages_url": "https://sadikovsa.github.io/interior-light-v2/",
-  "publication_proof": "PUBLICATION.json is historical; root will add new deployment proof",
+  "publication_proof": "PUBLICATION.json; common ../qa-cleanup live HTTP/browser/service proofs",
   "historical_initial_transfer": "history/SOURCE-CHECKPOINT.before-cleanup.json",
   "historical_source_final_175_runtime_sha256": "7a619e74dbb829cb788c252ca954495ff9fcc97126aa7fac7cf89b230bf26a72",
   "historical_html_body_original_sha256": "bd3e86af78c78b820437d5b76b56dda2739607d9f639ec1acad6d0fa9db70f2b",
@@ -31,5 +31,7 @@
     "site.webmanifest"
   ],
   "current_public_runtime_inventory_sha256": "23fc7e4f83ed58b84ee1901c7513ae036d1f3ab8956687f71033a0dea5b1ecc3",
-  "runtime_inventory_hash_method": "SHA256 UTF8 JSON of BUILD-INVENTORY.files; sort_keys=true, ensure_ascii=false, separators comma/colon"
+  "runtime_inventory_hash_method": "SHA256 UTF8 JSON of BUILD-INVENTORY.files; sort_keys=true, ensure_ascii=false, separators comma/colon",
+  "current_runtime_source_commit": "488f0625aa0f41ab7d18eb19cac7dfb068b07751",
+  "current_pages_release_commit": "1b2e177de002db178ca7731d507dd8910b167d98"
 }
