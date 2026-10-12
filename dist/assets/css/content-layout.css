@@ -1,0 +1,231 @@
+/* Content R3 has its own themes. Frozen first-screen CSS and global tokens are untouched. */
+.content-r3[class] { --c-gutter:20px; --c-gap:20px; --c-pad:32px; --c-body:17px; --c-caption:14px; --c-heading:34px; --c-line:1.5; font-family:var(--c-body-font); font-size:var(--c-body); line-height:var(--c-line); background:var(--c-bg); color:var(--c-text); }
+.content-r3--horizon { --c-bg:#16222c; --c-text:#eee8df; --c-muted:#b8c2c9; --c-accent:#cf8f67; --c-body-font:'IBM Plex Sans',Arial,sans-serif; --c-display-font:'Prata',Georgia,serif; }
+.content-r3--object[class] { --c-bg:#edede7; --c-text:#191b1a; --c-muted:#725037; --c-accent:#3f4668; --c-body-font:'Golos Text',Arial,sans-serif; --c-display-font:'Unbounded',Arial,sans-serif; --c-heading:32px; }
+.content-r3--garden[class] { --c-bg:#213c31; --c-text:#ede6d8; --c-muted:#afbca4; --c-accent:#afbca4; --c-body-font:'Commissioner',Arial,sans-serif; --c-display-font:'Literata',Georgia,serif; }
+.content-r3[class] .r3-light { --c-bg:#eee8df; --c-text:#16222c; --c-muted:#565a59; --c-accent:#725037; }
+.content-r3--object[class] .r3-light { --c-bg:#edede7; --c-text:#191b1a; --c-muted:#725037; --c-accent:#3f4668; }
+.content-r3--garden[class] .r3-light { --c-bg:#ede6d8; --c-text:#213c31; --c-muted:#43584b; --c-accent:#43584b; }
+.content-r3[class] .r3-indigo { --c-bg:#3f4668; --c-text:#edede7; --c-muted:#edede7; --c-accent:#edede7; }
+.content-r3[class] .r3-chapter { padding:var(--c-pad) var(--c-gutter); background:var(--c-bg); color:var(--c-text); scroll-margin-top:7rem; }
+.content-r3[class] .r3-chapter:has(> .project[hidden]):not(:has(> .r3-filters)) { display:none; }
+.content-r3[class] h2 { margin:0 0 24px; font:400 var(--c-heading)/1.08 var(--c-display-font); letter-spacing:-.025em; text-wrap:balance; max-width:26ch; }
+.content-r3[class] h3 { font:600 20px/1.3 var(--c-body-font); letter-spacing:0; margin:0 0 8px; }
+.content-r3--object[class] h2 { font-weight:700; line-height:1.04; letter-spacing:-.04em; }
+.content-r3[class] p { margin:0; max-width:65ch; }
+.content-r3[class] .r3-prose > p + p { margin-top:20px; }
+.content-r3[class] .r3-intro { margin:0 0 28px; max-width:65ch; }
+.content-r3[class] .r3-profile { font-size:var(--c-caption); color:var(--c-muted); margin:16px 0 24px; }
+.content-r3[class] .r3-muted { color:var(--c-muted); }
+.content-r3[class] .r3-media { min-width:0; margin:0; }
+.content-r3[class] .r3-image-link { display:block; overflow:hidden; min-width:0; }
+.content-r3[class] .r3-media .r3-image { width:100%; height:auto; object-fit:cover; aspect-ratio:3/2; transform:scale(var(--c-image-zoom,1)); transform-origin:var(--c-image-origin,50% 50%); }
+.content-r3[class] .r3-media figcaption { color:var(--c-muted); font:400 var(--c-caption)/1.4 var(--c-body-font); padding:10px 0 0; }
+.content-r3[class] .r3-media--plan .r3-image, .content-r3[class] .r3-media--document .r3-image, .content-r3[class] .r3-media--survey .r3-image, .content-r3[class] .r3-media--storage-map .r3-image, .content-r3[class] .r3-media--dining-map .r3-image, .content-r3[class] .r3-media--working-sheet .r3-image { aspect-ratio:4/3; object-fit:contain; background:#ede6d8; }
+.content-r3[class] .r3-media--bench-node .r3-image { aspect-ratio:2/3; object-fit:contain; }
+.content-r3[class] .r3-media--bedroom .r3-image { aspect-ratio:4/5; }
+.content-r3[class] .r3-media--reading-detail .r3-image { aspect-ratio:2/3; object-position:29% 48%; }
+.content-r3[class] .r3-notes, .content-r3[class] .r3-material-list { margin:24px 0 0; padding:0; }
+.content-r3[class] .r3-notes > div { padding:16px 0; border-top:1px solid color-mix(in srgb,var(--c-text) 25%,transparent); }
+.content-r3[class] dt { font-size:20px; line-height:1.25; font-weight:600; }
+.content-r3[class] dd { margin:7px 0 0; }
+.content-r3[class] .r3-material-list > div + div { margin-top:24px; }
+.content-r3[class] .r3-case-text { display:grid; gap:24px; margin-top:24px; }
+.content-r3[class] .r3-case-text ul { margin:0; padding-left:1.1em; }
+.content-r3[class] .r3-case-text li + li { margin-top:10px; }
+.content-r3[class] .r3-compromise { padding-top:20px; border-top:1px solid color-mix(in srgb,var(--c-text) 25%,transparent); }
+.content-r3[class] .r3-case.project { min-width:0; margin:0; width:auto; grid-column:auto; }
+.content-r3[class] .r3-outputs { margin:24px 0 0; padding:0; list-style:none; counter-reset:steps; }
+.content-r3[class] .r3-outputs li { counter-increment:steps; position:relative; padding:20px 0 20px 46px; border-top:1px solid color-mix(in srgb,var(--c-text) 25%,transparent); }
+.content-r3[class] .r3-outputs li::before { content:counter(steps,decimal-leading-zero); position:absolute; left:0; top:20px; font:400 26px/1.15 var(--c-display-font); color:var(--c-accent); }
+.content-r3[class] .r3-outputs p + p { margin-top:10px; }
+.content-r3[class] .r3-footer { padding:40px var(--c-gutter); background:var(--c-bg); color:var(--c-text); font-size:var(--c-caption); display:grid; gap:24px; }
+.content-r3[class] .r3-footer-profile { font-family:var(--c-display-font); font-size:24px; }
+.content-r3[class] .r3-footer nav { display:flex; flex-wrap:wrap; gap:12px 24px; }
+.content-r3[class] .r3-footer nav a { min-height:44px; display:flex; align-items:center; }
+.content-r3[class] .r3-footer h3 { font-size:18px; }
+.content-r3[class] .r3-footer > div p + p { margin-top:8px; }
+/* Horizon: architecture explained through four different spread structures. */
+.content-r3[class] .h-criteria, .content-r3[class] .h-water, .content-r3[class] .h-plan, .content-r3[class] .h-bedroom, .content-r3[class] .h-bench, .content-r3[class] .h-deliver, .content-r3[class] .h-survey { display:grid; gap:var(--c-gap); align-items:start; }
+.content-r3[class] .h-criteria .r3-media--living-criteria .r3-image { aspect-ratio:4/5; object-position:38% 50%; }
+.content-r3[class] .h-water .r3-media--living .r3-image { aspect-ratio:4/3; }
+.content-r3[class] .h-plan { margin-top:28px; }
+.content-r3[class] .h-plan .r3-media--materials .r3-image { aspect-ratio:3/2; object-position:20% 62%; }
+.content-r3[class] .h-survey-details { display:grid; grid-template-columns:1fr 1fr; gap:var(--c-gap); margin-top:24px; }
+.content-r3[class] .h-survey-details .r3-image { aspect-ratio:1; }
+/* Forma: an atlas, object research, two room contexts and a functional collection. */
+.content-r3[class] .f-atlas { display:grid; gap:28px; margin-top:32px; align-items:end; }
+.content-r3[class] .f-sample figure { margin-bottom:18px; }
+.content-r3[class] .f-sample--0 .r3-image { aspect-ratio:4/3; object-position:0 60%; }
+.content-r3[class] .f-sample--1 .r3-image { aspect-ratio:4/3; object-position:10% 5%; }
+.content-r3[class] .f-sample--2 .r3-image { aspect-ratio:4/3; object-position:90% 66%; }
+.content-r3[class] .f-sample dd + dd { margin-top:10px; }
+.content-r3[class] .f-supports, .content-r3[class] .f-room, .content-r3[class] .f-placement-intro, .content-r3[class] .f-placement, .content-r3[class] .f-bedroom, .content-r3[class] .f-objects, .content-r3[class] .f-set, .content-r3[class] .f-collection-heading { display:grid; gap:var(--c-gap); }
+.content-r3[class] .f-supports { margin-top:24px; }
+.content-r3[class] .f-support-versions { display:grid; grid-template-columns:1fr 1fr; gap:var(--c-gap); }
+.content-r3[class] .r3-media--support-wide .r3-image { aspect-ratio:4/3; object-position:100% 64%; }
+.content-r3[class] .r3-media--support-narrow .r3-image { aspect-ratio:4/5; object-position:0 68%; }
+.content-r3[class] .r3-media--support-offset .r3-image { aspect-ratio:4/5; object-position:45% 67%; }
+.content-r3[class] .f-room { margin-top:24px; align-items:start; }
+.content-r3[class] .r3-media--bedroom-preview .r3-image { aspect-ratio:3/4; object-position:70% 60%; }
+.content-r3[class] .f-room h3 { margin-top:18px; }
+.content-r3[class] .f-story { margin-top:28px; }
+.content-r3[class] .f-placement-intro { margin:24px 0 32px; }
+.content-r3[class] .f-placement .r3-image { aspect-ratio:4/3; }
+.content-r3[class] .f-warm { --c-bg:#d3c6b3; --c-text:#191b1a; --c-muted:#513c2d; }
+.content-r3[class] .r3-media--headboard-detail .r3-image { aspect-ratio:4/5; object-position:78% 30%; }
+.content-r3[class] .f-objects { margin-top:32px; align-items:start; }
+.content-r3[class] .f-objects h3 { margin-top:18px; }
+.content-r3[class] .r3-media--side-table .r3-image { aspect-ratio:4/5; object-position:0 55%; }
+.content-r3[class] .r3-media--wall-light .r3-image { aspect-ratio:3/5; object-position:51% 18%; }
+.content-r3[class] .r3-media--tray .r3-image { aspect-ratio:4/5; object-position:100% 62%; }
+/* Garden: a lived-day narrative, storage map, room threshold and shared table. */
+.content-r3[class] .g-day, .content-r3[class] .g-storage, .content-r3[class] .g-forest, .content-r3[class] .g-terrace, .content-r3[class] .g-dining, .content-r3[class] .g-together { display:grid; gap:var(--c-gap); align-items:start; }
+.content-r3[class] .g-day-details, .content-r3[class] .g-storage-details, .content-r3[class] .g-textures { display:grid; gap:var(--c-gap); margin-top:24px; }
+.content-r3[class] .g-day-details { grid-template-columns:1fr 1fr; }
+.content-r3[class] .g-day-details .r3-image { aspect-ratio:4/3; }
+.content-r3[class] .r3-media--morning-detail .r3-image { object-position:8% 50%; }
+.content-r3[class] .r3-media--evening-detail .r3-image { object-position:95% 50%; }
+.content-r3[class] .g-storage { margin-top:24px; }
+.content-r3[class] .r3-media--drawer .r3-image { aspect-ratio:4/3; object-position:97% 80%; }
+.content-r3[class] .g-forest .r3-media--forest-room .r3-image { aspect-ratio:4/5; }
+.content-r3[class] .g-forest .r3-media--window-detail { margin-top:24px; max-width:280px; }
+.content-r3[class] .r3-media--window-detail .r3-image { aspect-ratio:2/3; object-position:96% 30%; }
+.content-r3[class] .g-terrace { margin-top:28px; }
+.content-r3[class] .r3-media--threshold-detail { margin-top:24px; }
+.content-r3[class] .r3-media--threshold-detail .r3-image { aspect-ratio:4/1; object-position:49% 95%; }
+.content-r3[class] .g-textures .r3-image { aspect-ratio:3/2; }
+.content-r3[class] .g-textures dl { margin:18px 0 0; }
+.content-r3--garden[class] .r3-media--wood-sample .r3-image { object-position:80% 15%; }
+.content-r3--garden[class] .r3-media--fabric-sample .r3-image { object-position:90% 60%; }
+.content-r3--garden[class] .r3-media--stone-sample .r3-image { object-position:55% 85%; }
+.content-r3[class] .g-dining { margin-top:24px; }
+.content-r3[class] .g-dining .r3-media--dining { margin-top:28px; }
+.content-r3[class] .r3-media--table-detail .r3-image { aspect-ratio:3/2; object-position:52% 47%; }
+.content-r3[class] .g-dining .r3-media--dining-map { margin-top:24px; }
+@media (min-width:768px) {
+ .content-r3[class] { --c-gutter:32px; --c-gap:24px; --c-pad:40px; --c-body:18px; --c-caption:15px; --c-heading:44px; }
+ .content-r3--object[class] { --c-heading:42px; }
+ .content-r3[class] .h-criteria, .content-r3[class] .h-water, .content-r3[class] .h-deliver, .content-r3[class] .h-survey, .content-r3[class] .g-day, .content-r3[class] .g-storage, .content-r3[class] .g-forest, .content-r3[class] .g-dining, .content-r3[class] .f-room, .content-r3[class] .f-placement, .content-r3[class] .f-set { grid-template-columns:1fr 1fr; }
+ .content-r3[class] .h-plan { grid-template-columns:1fr 1fr; }
+ .content-r3[class] .h-plan > .r3-media--plan { grid-column:1/-1; }
+ .content-r3[class] .h-bedroom { grid-template-columns:1fr 1fr; }
+ .content-r3[class] .h-bedroom > .r3-media--reading-detail { grid-column:2; }
+ .content-r3[class] .h-bench { grid-template-columns:1fr 1fr; }
+ .content-r3[class] .h-bench > .r3-prose { grid-column:1/-1; }
+ .content-r3[class] .f-atlas { grid-template-columns:1.2fr 1fr .85fr; gap:20px; }
+ .content-r3[class] .f-atlas .r3-image { aspect-ratio:3/4; }
+ .content-r3[class] .f-sample--1 { margin-bottom:45px; }
+ .content-r3[class] .f-supports { grid-template-columns:1fr 1fr; }
+ .content-r3[class] .f-supports > .r3-prose { grid-column:1/-1; }
+ .content-r3[class] .f-support-versions { grid-template-columns:1fr; }
+ .content-r3[class] .f-support-versions .r3-image { aspect-ratio:3/2; }
+ .content-r3[class] .f-placement-intro { grid-template-columns:1.5fr 1fr; }
+ .content-r3[class] .f-placement-intro .r3-notes { margin:0; }
+ .content-r3[class] .f-bedroom { grid-template-columns:1fr 1.4fr; }
+ .content-r3[class] .f-bedroom > .r3-prose { grid-column:1/-1; }
+ .content-r3[class] .f-objects { grid-template-columns:1.1fr .75fr 1.1fr; }
+ .content-r3[class] .f-collection-heading { grid-template-columns:1fr 1fr; align-items:start; }
+ .content-r3[class] .g-storage-details { grid-template-columns:1fr 1fr; }
+ .content-r3[class] .g-storage-details .r3-image { aspect-ratio:1; }
+ .content-r3[class] .g-terrace { grid-template-columns:1fr 1fr; }
+ .content-r3[class] .g-terrace > .r3-prose { grid-column:1/-1; grid-row:1; }
+ .content-r3[class] .g-terrace > div:first-child { grid-column:1/-1; }
+ .content-r3[class] .g-textures { grid-template-columns:1.1fr .85fr 1fr; }
+ .content-r3[class] .g-together { grid-template-columns:1fr 1fr; }
+ .content-r3[class] .g-together > div:first-child { grid-column:1/-1; }
+ .content-r3[class] .r3-footer { grid-template-columns:1fr 1fr; }
+}
+@media (min-width:1200px) {
+ .content-r3[class] { --c-gutter:max(64px,calc((100vw - 1312px)/2)); --c-gap:32px; --c-pad:56px; --c-body:20px; --c-heading:64px; }
+ .content-r3[class] .h-criteria { grid-template-columns:48fr 52fr; align-items:stretch; }
+ .content-r3[class] .h-criteria .r3-image { height:100%; min-height:720px; }
+ .content-r3[class] .h-water { grid-template-columns:33fr 67fr; align-items:stretch; }
+ .content-r3[class] .h-water .r3-image { height:100%; min-height:740px; }
+ .content-r3[class] .h-plan { grid-template-columns:45fr 25fr 30fr; }
+ .content-r3[class] .h-plan > .r3-media--plan { grid-column:auto; }
+ .content-r3[class] .h-bedroom { grid-template-columns:50fr 35fr 15fr; }
+ .content-r3[class] .h-bedroom > .r3-media--reading-detail { grid-column:auto; margin-top:180px; }
+ .content-r3[class] .h-bench { grid-template-columns:55fr 25fr 20fr; }
+ .content-r3[class] .h-bench > .r3-prose { grid-column:auto; }
+ .content-r3[class] .h-deliver { grid-template-columns:60fr 40fr; }
+ .content-r3[class] .h-survey { grid-template-columns:40fr 60fr; }
+ .content-r3[class] .f-atlas-section h2 { font-size:84px; max-width:17ch; }
+ .content-r3[class] .f-atlas { grid-template-columns:40fr 32fr 28fr; gap:40px; }
+ .content-r3[class] .f-sample--1 { margin-bottom:70px; }
+ .content-r3[class] .f-sample--2 { margin-bottom:20px; }
+ .content-r3[class] .f-supports { grid-template-columns:38fr 62fr; }
+ .content-r3[class] .f-supports > .r3-prose { grid-column:1; }
+ .content-r3[class] .f-supports > .r3-media--support-wide { grid-column:2; grid-row:1/3; }
+ .content-r3[class] .f-support-versions { grid-template-columns:1fr 1fr; grid-column:1; }
+ .content-r3[class] .f-support-versions .r3-image { aspect-ratio:4/5; }
+ .content-r3[class] .f-room { grid-template-columns:68fr 32fr; }
+ .content-r3[class] .f-story .r3-case-text { grid-template-columns:1fr 1fr 1.5fr; }
+ .content-r3[class] .f-story .r3-compromise { grid-column:1/-1; }
+ .content-r3[class] .f-bedroom { grid-template-columns:34fr 24fr 42fr; }
+ .content-r3[class] .f-bedroom > .r3-prose { grid-column:auto; }
+ .content-r3[class] .f-objects { grid-template-columns:38fr 24fr 38fr; }
+ .content-r3[class] .f-set { grid-template-columns:44fr 56fr; }
+ .content-r3[class] .g-day { grid-template-columns:32fr 68fr; }
+ .content-r3[class] .g-storage { grid-template-columns:32fr 68fr; }
+ .content-r3[class] .g-forest { grid-template-columns:58fr 42fr; }
+ .content-r3[class] .g-forest > .r3-media--forest-room .r3-image { aspect-ratio:4/3; }
+ .content-r3[class] .g-terrace { grid-template-columns:74fr 26fr; }
+ .content-r3[class] .g-terrace > .r3-prose { grid-column:2; grid-row:auto; }
+ .content-r3[class] .g-terrace > div:first-child { grid-column:1; }
+ .content-r3[class] .g-textures { grid-template-columns:37fr 28fr 35fr; }
+ .content-r3[class] .g-dining { grid-template-columns:64fr 36fr; }
+ .content-r3[class] .g-together { grid-template-columns:38fr 30fr 32fr; }
+ .content-r3[class] .g-together > div:first-child { grid-column:auto; }
+ .content-r3[class] .g-together .r3-outputs { margin-top:0; }
+ .content-r3[class] .r3-footer { grid-template-columns:1fr 1fr 1fr; }
+ .content-r3[class] .r3-footer-profile { grid-column:1/-1; }
+}
+
+/* Authored crops select details from our own clean plates, never from UI comps. */
+.content-r3[class] .r3-media--living-criteria { --c-image-zoom:2.2; --c-image-origin:44% 68%; }
+.content-r3[class] .h-plan .r3-media--materials { --c-image-zoom:2.6; --c-image-origin:48% 82%; }
+.content-r3[class] .r3-media--reading-detail { --c-image-zoom:2.1; --c-image-origin:31% 40%; }
+.content-r3--object[class] .r3-media--stone-sample { --c-image-zoom:2.2; --c-image-origin:10% 48%; }
+.content-r3--object[class] .r3-media--wood-sample { --c-image-zoom:2.2; --c-image-origin:50% 48%; }
+.content-r3--object[class] .r3-media--metal-sample { --c-image-zoom:2.2; --c-image-origin:93% 53%; }
+.content-r3[class] .r3-media--support-wide { --c-image-zoom:1.8; --c-image-origin:99% 62%; }
+.content-r3[class] .r3-media--support-narrow { --c-image-zoom:1.1; --c-image-origin:5% 64%; }
+.content-r3[class] .r3-media--support-offset { --c-image-zoom:1.1; --c-image-origin:48% 64%; }
+.content-r3[class] .r3-media--side-table { --c-image-zoom:1.2; --c-image-origin:5% 63%; }
+.content-r3[class] .r3-media--wall-light { --c-image-zoom:1.2; --c-image-origin:50% 25%; }
+.content-r3[class] .r3-media--tray { --c-image-zoom:1.2; --c-image-origin:99% 75%; }
+.content-r3[class] .r3-media--headboard-detail { --c-image-zoom:1.5; --c-image-origin:70% 48%; }
+.content-r3[class] .r3-media--morning-detail { --c-image-zoom:2; --c-image-origin:6% 63%; }
+.content-r3[class] .r3-media--evening-detail { --c-image-zoom:2; --c-image-origin:95% 63%; }
+.content-r3[class] .r3-media--drawer { --c-image-zoom:2; --c-image-origin:95% 65%; }
+.content-r3--garden[class] .r3-media--wood-sample { --c-image-zoom:2.8; --c-image-origin:80% 20%; }
+.content-r3--garden[class] .r3-media--fabric-sample { --c-image-zoom:2.8; --c-image-origin:89% 65%; }
+.content-r3--garden[class] .r3-media--stone-sample { --c-image-zoom:2.8; --c-image-origin:51% 80%; }
+.content-r3[class] .r3-media--table-detail { --c-image-zoom:2; --c-image-origin:45% 47%; }
+
+.content-r3--object[class] .f-sample--0 .r3-image { object-position:0 50%; }
+.content-r3--object[class] .f-sample--1 .r3-image { object-position:50% 50%; }
+.content-r3--object[class] .f-sample--2 .r3-image { object-position:100% 50%; }
+.content-r3[class] .r3-media--support-narrow { --c-image-zoom:2; --c-image-origin:14% 65%; }
+.content-r3[class] .r3-media--support-offset { --c-image-zoom:2; --c-image-origin:47% 65%; }
+@media (min-width:1200px) {
+ .content-r3[class] .h-bench > .h-bench-intro { grid-column:1/3; grid-row:2; display:grid; grid-template-columns:1fr 1fr; gap:32px; }
+ .content-r3[class] .h-bench > .h-bench-intro > p { margin:0; }
+ .content-r3[class] .h-bench > .h-bench-checks { grid-column:3; grid-row:1/3; }
+ .content-r3[class] .h-bench-checks .r3-notes { margin-top:0; }
+}
+
+.content-r3[class] .r3-media--side-table { --c-image-zoom:1.1; --c-image-origin:82% 58%; }
+.content-r3[class] .r3-media--side-table .r3-image { object-position:85% 60%; }
+/* BUG-R3-02: Unbounded numerals need their own column in Forma's output list. */
+.content-r3--object[class] .r3-outputs { --c-step-number-column:56px; --c-step-column-gap:16px; }
+.content-r3--object[class] .r3-outputs li { padding-inline-start:calc(var(--c-step-number-column) + var(--c-step-column-gap)); }
+.content-r3--object[class] .r3-outputs li::before { width:var(--c-step-number-column); text-align:start; }
+
+/* Keep the nonbreaking heading group inside the extra-narrow single column. */
+@media (max-width:359px) {
+ .content-r3--object[class] .f-set { grid-template-columns:minmax(0,1fr); }
+ .content-r3--object[class] .f-set > div { min-width:0; }
+ .content-r3--object[class] .f-set h2 { font-size:clamp(1.75rem,8.75vw,2rem); }
+}

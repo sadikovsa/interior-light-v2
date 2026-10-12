@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "package": "interior-light-v2",
+  "source_repository": "sadikovsa/codex_studio",
+  "source_root_directory": "interior-light-v2",
+  "source_release_commit": "9e343c887206b70f0b868fbf420c1a4e005db77b",
+  "integration_main_checkpoint": "e074ddf",
+  "source_final_175_runtime_sha256": "7a619e74dbb829cb788c252ca954495ff9fcc97126aa7fac7cf89b230bf26a72",
+  "root_checkpoint_retained": true,
+  "planned_repository": "sadikovsa/interior-light-v2",
+  "planned_pages_url": "https://sadikovsa.github.io/interior-light-v2/",
+  "publication_status": "prepared_not_verified",
+  "html_body_original_sha256": "bd3e86af78c78b820437d5b76b56dda2739607d9f639ec1acad6d0fa9db70f2b",
+  "metadata_change": "private origin plus variant path replaced with this standalone Pages base; UI unchanged",
+  "source_inventory": "SOURCE-INVENTORY.json",
+  "public_build_inventory": "BUILD-INVENTORY.json"
+}

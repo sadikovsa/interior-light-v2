@@ -1,0 +1,41 @@
+/* Approved R2 reference-lock. Breakpoints: 768px tablet, 1280px wide. */
+:root {
+  --color-bg: #F7F7F4;
+  --color-text: #171918;
+  --color-muted: #545A54;
+  --color-accent: #715338;
+  --color-surface: #E8E8E2;
+  --color-on-accent: #FFFFFF;
+  --color-error: #8F2431;
+  --color-focus: #715338;
+  --color-hero-text: #171918;
+  --color-hero-scrim: rgba(247,247,244,0.92);
+  --font-heading: Arial, system-ui, sans-serif;
+  --font-body: Arial, system-ui, sans-serif;
+  --font-size-caption: 0.8125rem;
+  --font-size-body: 1rem;
+  --font-size-lead: 1.25rem;
+  --font-size-h2: clamp(2rem, 4vw, 3.75rem);
+  --font-size-hero: clamp(2.25rem, 4.4vw, 4.5rem);
+  --font-size-object: clamp(5rem, 22vw, 22rem);
+  --line-body: 1.6;
+  --line-heading: 1.08;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 5rem;
+  --space-section: clamp(4rem, 8vw, 8rem);
+  --page-gutter: clamp(1.25rem, 4vw, 4rem);
+  --content-width: 80rem;
+  --radius-control: 0px;
+  --radius-panel: 2px;
+  --shadow-panel: 0 16px 48px rgba(0,0,0,0.18);
+  --duration-control: 180ms;
+  --duration-panel: 280ms;
+  --ease-control: cubic-bezier(0.2, 0, 0, 1);
+  --ease-panel: cubic-bezier(0.22, 1, 0.36, 1);
+  --tap-size: 44px;
+}

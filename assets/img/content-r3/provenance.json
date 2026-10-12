@@ -1,0 +1,164 @@
+[
+  {
+    "key": "object-supports",
+    "stem": "supports",
+    "variant": "light",
+    "source": "generated master; original PNG retained outside production",
+    "tool": "image_gen.imagegen",
+    "masterSha256": "5ef657f32127807ecbf05be24ffe5a83fd922d9fe536d0e11487bc3c7f8b214a",
+    "files": [
+      {
+        "filename": "supports-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 133730,
+        "sha256": "473ddc045da40b50415d11d64ff4eb80c99435c4a37ed9150c3ec0cc4c353cec"
+      },
+      {
+        "filename": "supports-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 70010,
+        "sha256": "4afa93e842e77cfe559226963e5503d39fa8d1a58872307405ca94caa8efffb9"
+      },
+      {
+        "filename": "supports-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 34796,
+        "sha256": "b0950f0082268bcc7ec100c95107ece84887d828113fefe3611fbe95ec6ee706"
+      }
+    ],
+    "prompt": "interior-demo/.studio/v2/content-r3/prompts/assets/object-supports.txt",
+    "refinementPrompt": "interior-demo/.studio/v2/content-r3/prompts/assets/object-supports-refinement.txt",
+    "operation": "own master refined through image_gen with referenced_image_paths"
+  },
+  {
+    "key": "object-objects",
+    "stem": "objects",
+    "variant": "light",
+    "source": "generated master; original PNG retained outside production",
+    "tool": "image_gen.imagegen",
+    "masterSha256": "c8aa69037af9ae8a87acf2bddbc177299e24b3aefb156997c64268d60f4c1930",
+    "files": [
+      {
+        "filename": "objects-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 173064,
+        "sha256": "c2fbe91d5d1c9a201c73e8c4c72fcb3f6d27918e97d00879fbecc77d52a248a1"
+      },
+      {
+        "filename": "objects-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 72156,
+        "sha256": "c6f99fd1181b2eaa42edf3204d365d9d23d4ad0fb372507219fd6e24209b800b"
+      },
+      {
+        "filename": "objects-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 29594,
+        "sha256": "5d21b1433b1a7713d8d8753763d181e5253e790f325c1ffc1f1ace7208454f16"
+      }
+    ],
+    "prompt": "interior-demo/.studio/v2/content-r3/prompts/assets/object-objects.txt"
+  },
+  {
+    "key": "object-placement-wall",
+    "stem": "placement-wall",
+    "variant": "light",
+    "source": "generated master; original PNG retained outside production",
+    "tool": "image_gen.imagegen",
+    "masterSha256": "1e6b258b925188e9a9264674a5061fa4f02b059f8e6a4d34aa46b9a6ce6c6867",
+    "files": [
+      {
+        "filename": "placement-wall-1448.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 188342,
+        "sha256": "a984013e78f49c1b735da0926252248a23e1ead921b9b27b6be014a9e074a09f"
+      },
+      {
+        "filename": "placement-wall-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 95786,
+        "sha256": "1e5bc990c8b7518ee480aed7f2366a9bad592bf610b67ea554f45c7878ba7523"
+      },
+      {
+        "filename": "placement-wall-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 42718,
+        "sha256": "3d014babcc76d5f70bdfe9a15b6d549db97b18c85840161137143531c739bcfc"
+      }
+    ],
+    "prompt": "interior-demo/.studio/v2/content-r3/prompts/assets/object-placement-wall.txt"
+  },
+  {
+    "key": "object-placement-centre",
+    "stem": "placement-centre",
+    "variant": "light",
+    "source": "generated master; original PNG retained outside production",
+    "tool": "image_gen.imagegen",
+    "masterSha256": "4b25f3196f2f53273a474f0072459283ec28d24c306fd975d8e034beb949b880",
+    "files": [
+      {
+        "filename": "placement-centre-1448.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 272926,
+        "sha256": "cd213fc33c8d693a7a7bfcb1f03d4d3aba5f36112507be0127c49abb0a33ee38"
+      },
+      {
+        "filename": "placement-centre-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 138664,
+        "sha256": "261b37c3cb5e6f9c2463b41e0e3533793656118b94b3d609967a7a6f010b5447"
+      },
+      {
+        "filename": "placement-centre-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 59434,
+        "sha256": "0be038bf4006d75fa0cfb99e495883fab82bd39880727f5676d9dfdb6007d292"
+      }
+    ],
+    "prompt": "interior-demo/.studio/v2/content-r3/prompts/assets/object-placement-centre.txt"
+  },
+  {
+    "key": "object-atlas",
+    "stem": "atlas",
+    "variant": "light",
+    "source": "generated master; original PNG retained outside production",
+    "tool": "image_gen.imagegen",
+    "masterSha256": "96eccf975a9780f73b8e7ac33ce0e1f3ade73c204755ac8de68766bcf8c53b67",
+    "files": [
+      {
+        "filename": "atlas-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 233436,
+        "sha256": "530d4c3a10c31364b3022c62ba142ace48023c038daf8d08bd7cf3d222c1ec98"
+      },
+      {
+        "filename": "atlas-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 94058,
+        "sha256": "17d3c4b5ac26b0f46b114679931ebacc86df3885d29ed24245e8f8655ea61b57"
+      },
+      {
+        "filename": "atlas-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 37744,
+        "sha256": "bd6d6998dc2260c6ff1d532fd0f488ccacb4843a87f0555669d02506a3940b9a"
+      }
+    ],
+    "prompt": "interior-demo/.studio/v2/content-r3/prompts/assets/object-atlas.txt"
+  }
+]

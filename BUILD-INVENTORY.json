@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "package": "interior-light-v2",
+  "planned_pages_url": "https://sadikovsa.github.io/interior-light-v2/",
+  "deployment_verified_by_build": false,
+  "public_files": 59,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 40609,
+      "sha256": "95a394c9a79e20afaa4fbc80b7f70f3229a461d99bc487db29f0ad93d8691ca7"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 145,
+      "sha256": "3f6420c0e4a40d2e5c00ae798cb5d9b38210c904ed946a015e6600316b8974e3"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 166,
+      "sha256": "8d22e5c289583cb613a481e23b49fd9b06801ab3a38976575c61e3d167ceffc3"
+    },
+    {
+      "path": "site.webmanifest",
+      "bytes": 541,
+      "sha256": "558be50b177e4bad961c91357de3e43e35dd47bcf1a11fedded66f9a55ad3463"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/css/base.css",
+      "bytes": 2088,
+      "sha256": "eb49dafb7b95ea111597aa524d95039d3107bde4775e7d5d1b01dff6009a463c"
+    },
+    {
+      "path": "assets/css/components.css",
+      "bytes": 3379,
+      "sha256": "d338815623079a1d428e2dcef2170dc574c32ca1cbda5ade1a4c7dc1a569f076"
+    },
+    {
+      "path": "assets/css/content-fonts.css",
+      "bytes": 78,
+      "sha256": "4850230fd169966f151d5bba3074a3cf4f53095ce4bcff1a07d83c99f55c9ee6"
+    },
+    {
+      "path": "assets/css/content-interface.css",
+      "bytes": 5726,
+      "sha256": "ade8eef33cc73fec6b0cde13c82c188169b7a19c2663867f21a3182255247b77"
+    },
+    {
+      "path": "assets/css/content-layout.css",
+      "bytes": 20024,
+      "sha256": "23cb5cd3520cc37267d89c96f74e7cb2c717cb4c23e8e134036b14ded2206a78"
+    },
+    {
+      "path": "assets/css/layout.css",
+      "bytes": 4395,
+      "sha256": "4cb634501b4522167f6ce268da3523b33eebe356894afcdb47e9fadc520af690"
+    },
+    {
+      "path": "assets/css/motion.css",
+      "bytes": 4298,
+      "sha256": "b742d059413fec2e633cfd691f192faf5c566f0dac83e2b7a80f8763979119e0"
+    },
+    {
+      "path": "assets/css/tokens.css",
+      "bytes": 1260,
+      "sha256": "1d3f0a3a41f258e0e4e8ac2369d7dc28e203cbd5a2ee38b046abe0fda72ab45d"
+    },
+    {
+      "path": "assets/fonts/golostext-OFL.txt",
+      "bytes": 4394,
+      "sha256": "ff532f9e8789f09a9fdffc3c0954eedfb0a48be77b2e2eb90f5f82e4f347f50c"
+    },
+    {
+      "path": "assets/fonts/golostext-cyrillic-ext.woff2",
+      "bytes": 17508,
+      "sha256": "70cf502d77aa23c8a573db8853f20a8db705d18414d170f257a9e939113aad47"
+    },
+    {
+      "path": "assets/fonts/golostext-cyrillic.woff2",
+      "bytes": 22032,
+      "sha256": "17d048ca05cb1218af3c0d6dcdf882989e6d1cc5dcb598ea50eaf54850ff7229"
+    },
+    {
+      "path": "assets/fonts/golostext-latin.woff2",
+      "bytes": 37916,
+      "sha256": "9a69d0aa4734c4022224c002a3d944a702e0204972a49d892789f5668b922c2a"
+    },
+    {
+      "path": "assets/fonts/golostext.css",
+      "bytes": 850,
+      "sha256": "23f4c03f627f3b7a96231934ef44196515f1fd6aa8e2e2484bf7e89457e1312c"
+    },
+    {
+      "path": "assets/fonts/manifest.json",
+      "bytes": 1660,
+      "sha256": "d82e928ff68691339d26e8806ffb6cefdbb4221d50122af03e9e156d0d56ea04"
+    },
+    {
+      "path": "assets/fonts/unbounded-OFL.txt",
+      "bytes": 4392,
+      "sha256": "31e5d4e83955e7103c34570dd49b0570ef490800bd65b42923c0dd02445263b3"
+    },
+    {
+      "path": "assets/fonts/unbounded-cyrillic-ext.woff2",
+      "bytes": 1840,
+      "sha256": "f25c38d28da3d57b68419590e7165c382e99bab3548baf4a498af93f87d3e518"
+    },
+    {
+      "path": "assets/fonts/unbounded-cyrillic.woff2",
+      "bytes": 31424,
+      "sha256": "e30bf6a6063b6a47232bbd657e24c7cf4fdaf76fc2c50d92d9ee63e2ad2087cf"
+    },
+    {
+      "path": "assets/fonts/unbounded-latin.woff2",
+      "bytes": 50904,
+      "sha256": "22f9b928aa3928a896340422b54d690fbb5875c30eae4c106f029c61f2289fd6"
+    },
+    {
+      "path": "assets/fonts/unbounded.css",
+      "bytes": 847,
+      "sha256": "80f73a6f18445ae12e3460b24d2b3a94fb2b29c5498a311a4956df509e6d6983"
+    },
+    {
+      "path": "assets/icons/apple-touch-icon.png",
+      "bytes": 1056,
+      "sha256": "6ed052beb3ab0377f05be80ba36a4340cd651d7c92643e1a0ddcd7356ee280bd"
+    },
+    {
+      "path": "assets/icons/favicon-16.png",
+      "bytes": 307,
+      "sha256": "a5fbd8aa9a054c42e33143badd8f7ed510258bd9d4af92a0382710c96b850579"
+    },
+    {
+      "path": "assets/icons/favicon-32.png",
+      "bytes": 414,
+      "sha256": "f14495a159419110d751120c586ebacc614eb93c3fe9ae6285cd6c3b47e4697c"
+    },
+    {
+      "path": "assets/icons/favicon.ico",
+      "bytes": 1206,
+      "sha256": "cd0cd598f657b0f6bf04443316e35bd0bfaac2704da3e1affd4e2ae2c1a09ebd"
+    },
+    {
+      "path": "assets/icons/favicon.svg",
+      "bytes": 174,
+      "sha256": "1bae03185b157ec8357c9b37eef93607fbb2e0adc185c3a6a9fb741cdccd8475"
+    },
+    {
+      "path": "assets/icons/icon-192.png",
+      "bytes": 1086,
+      "sha256": "ef5d45642cda764a2dc68264704b6bddc32d46c1f6ec7c3263675655b4e0a3d8"
+    },
+    {
+      "path": "assets/icons/icon-512.png",
+      "bytes": 1923,
+      "sha256": "f4812a9d33bf02af1d256c5a7338937b1a013eb0a87522402019204e9cc12955"
+    },
+    {
+      "path": "assets/img/content-r3/atlas-1536.webp",
+      "bytes": 233436,
+      "sha256": "530d4c3a10c31364b3022c62ba142ace48023c038daf8d08bd7cf3d222c1ec98"
+    },
+    {
+      "path": "assets/img/content-r3/atlas-640.webp",
+      "bytes": 37744,
+      "sha256": "bd6d6998dc2260c6ff1d532fd0f488ccacb4843a87f0555669d02506a3940b9a"
+    },
+    {
+      "path": "assets/img/content-r3/atlas-960.webp",
+      "bytes": 94058,
+      "sha256": "17d3c4b5ac26b0f46b114679931ebacc86df3885d29ed24245e8f8655ea61b57"
+    },
+    {
+      "path": "assets/img/content-r3/document.svg",
+      "bytes": 1148,
+      "sha256": "d0a35b84cb3936ca26e1b5c8d64edeadb2b383e732e1acde5ee4d44499ed4be1"
+    },
+    {
+      "path": "assets/img/content-r3/objects-1536.webp",
+      "bytes": 173064,
+      "sha256": "c2fbe91d5d1c9a201c73e8c4c72fcb3f6d27918e97d00879fbecc77d52a248a1"
+    },
+    {
+      "path": "assets/img/content-r3/objects-640.webp",
+      "bytes": 29594,
+      "sha256": "5d21b1433b1a7713d8d8753763d181e5253e790f325c1ffc1f1ace7208454f16"
+    },
+    {
+      "path": "assets/img/content-r3/objects-960.webp",
+      "bytes": 72156,
+      "sha256": "c6f99fd1181b2eaa42edf3204d365d9d23d4ad0fb372507219fd6e24209b800b"
+    },
+    {
+      "path": "assets/img/content-r3/placement-centre-1448.webp",
+      "bytes": 272926,
+      "sha256": "cd213fc33c8d693a7a7bfcb1f03d4d3aba5f36112507be0127c49abb0a33ee38"
+    },
+    {
+      "path": "assets/img/content-r3/placement-centre-640.webp",
+      "bytes": 59434,
+      "sha256": "0be038bf4006d75fa0cfb99e495883fab82bd39880727f5676d9dfdb6007d292"
+    },
+    {
+      "path": "assets/img/content-r3/placement-centre-960.webp",
+      "bytes": 138664,
+      "sha256": "261b37c3cb5e6f9c2463b41e0e3533793656118b94b3d609967a7a6f010b5447"
+    },
+    {
+      "path": "assets/img/content-r3/placement-wall-1448.webp",
+      "bytes": 188342,
+      "sha256": "a984013e78f49c1b735da0926252248a23e1ead921b9b27b6be014a9e074a09f"
+    },
+    {
+      "path": "assets/img/content-r3/placement-wall-640.webp",
+      "bytes": 42718,
+      "sha256": "3d014babcc76d5f70bdfe9a15b6d549db97b18c85840161137143531c739bcfc"
+    },
+    {
+      "path": "assets/img/content-r3/placement-wall-960.webp",
+      "bytes": 95786,
+      "sha256": "1e5bc990c8b7518ee480aed7f2366a9bad592bf610b67ea554f45c7878ba7523"
+    },
+    {
+      "path": "assets/img/content-r3/supports-1536.webp",
+      "bytes": 133730,
+      "sha256": "473ddc045da40b50415d11d64ff4eb80c99435c4a37ed9150c3ec0cc4c353cec"
+    },
+    {
+      "path": "assets/img/content-r3/supports-640.webp",
+      "bytes": 34796,
+      "sha256": "b0950f0082268bcc7ec100c95107ece84887d828113fefe3611fbe95ec6ee706"
+    },
+    {
+      "path": "assets/img/content-r3/supports-960.webp",
+      "bytes": 70010,
+      "sha256": "4afa93e842e77cfe559226963e5503d39fa8d1a58872307405ca94caa8efffb9"
+    },
+    {
+      "path": "assets/img/hero-1672.webp",
+      "bytes": 123306,
+      "sha256": "5be068ee6c8842e21482f3470e951232b5d59c6574efed3a8fb79352a2953468"
+    },
+    {
+      "path": "assets/img/hero-960.webp",
+      "bytes": 46608,
+      "sha256": "675403e9bd894647881bbcc0856e2e2a932ce2dc217d37244c0a4212a8189716"
+    },
+    {
+      "path": "assets/img/interior-1672.webp",
+      "bytes": 219874,
+      "sha256": "823bf80a3e1732318015155f42a8946d7840cb69d3e6dda25ba1e200cb10bfcd"
+    },
+    {
+      "path": "assets/img/interior-960.webp",
+      "bytes": 87484,
+      "sha256": "f31eb3dc693945f4112d8fb3e7b07967b2a30071cc4ab580199985806a781fd2"
+    },
+    {
+      "path": "assets/img/mineral-bedroom-1448.webp",
+      "bytes": 227176,
+      "sha256": "cbcb1556ed78238a2390eae627d1c139c88ba201766efdd4d5cffb4aa2b44df4"
+    },
+    {
+      "path": "assets/img/timber-house-1448.webp",
+      "bytes": 312718,
+      "sha256": "3eb998246cfcbb17defed335507368fd0abf1c278efbf089f9202ccd9d02193e"
+    },
+    {
+      "path": "assets/js/content.js",
+      "bytes": 5861,
+      "sha256": "274fc563465a1abdb2272a8bbe0ebea0207a2af9f4b20019dff68ddbc5272abe"
+    },
+    {
+      "path": "assets/js/main.js",
+      "bytes": 5491,
+      "sha256": "4c7c041519992885808a310a340ae88c4eef7ee1f89a855759a368b9e54405bb"
+    },
+    {
+      "path": "assets/js/vendor/ScrollTrigger.min.js",
+      "bytes": 44157,
+      "sha256": "308219390e5e3b84cda0c481e70caa9820883ae10bda44e6e9a149a81aac4b3f"
+    },
+    {
+      "path": "assets/js/vendor/gsap-package.json",
+      "bytes": 1676,
+      "sha256": "cba3c19e7852db942fcbd895c8a05e791490e72a20e28c228b86ed4d268615c4"
+    },
+    {
+      "path": "assets/js/vendor/gsap.min.js",
+      "bytes": 72435,
+      "sha256": "96c01b81f44a3290e2b4532f55e2c9534b2adc43273a19f3756b2cb41f0fd0b6"
+    },
+    {
+      "path": "assets/masks/environment.svg",
+      "bytes": 572,
+      "sha256": "0f9d2a01b9111cb544d447d5735f13d5242bb535cf9c817f1046db016fc8a31d"
+    }
+  ]
+}

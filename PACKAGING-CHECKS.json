@@ -1,0 +1,15 @@
+{
+  "package": "interior-light-v2",
+  "copied_source_files": 62,
+  "public_files": 59,
+  "public_bytes": 3087606,
+  "changed_from_original": [
+    "index.html:head_metadata_base_only"
+  ],
+  "original_body_sha256": "bd3e86af78c78b820437d5b76b56dda2739607d9f639ec1acad6d0fa9db70f2b",
+  "body_and_all_copied_assets_identical": true,
+  "static_local_references_checked": 108,
+  "second_build_inventory_identical": true,
+  "planned_pages_base": "https://sadikovsa.github.io/interior-light-v2/",
+  "deployment_verified": false
+}
