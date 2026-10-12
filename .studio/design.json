@@ -1,15 +1,10 @@
 {
   "schema_version": 1,
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "variant": "interior-light-v2",
   "display_name": "Форма / Object",
   "principle": "Предметный каталог",
-  "scope": "actual implementation; technical DEMO accepted; not owner final runtime approval",
-  "runtime_inventory": {
-    "paths": 175,
-    "sha256": "7a619e74dbb829cb788c252ca954495ff9fcc97126aa7fac7cf89b230bf26a72",
-    "these_documents_excluded": true
-  },
+  "scope": "actual active source after owner-requested public copy cleanup and editable local brief; geometry/styles preserved",
   "tokens": {
     "hero_global": {
       "--color-bg": "#F7F7F4",
@@ -196,7 +191,8 @@
       ],
       "cases": 2,
       "anchor_recovery": true,
-      "scrolltrigger_refresh": true
+      "scrolltrigger_refresh": true,
+      "public_wording": "Выбор проектов / Показано проектов: {count}"
     },
     "gallery": {
       "links": 16,
@@ -229,24 +225,79 @@
       "post": false,
       "storage": false,
       "focus": "first invalid field or success status",
-      "nojs": "disabled check button and explanatory text"
-    }
+      "nojs": "disabled preparation plus enable-JS instruction",
+      "mode": "prepare editable local description; user copy/TXT/manualselect",
+      "endpoint": null,
+      "briefTitle": "Композиция комнаты — Форма",
+      "exportTemplate": "{title}\n\nИмя: {name}\nКонтакт: {contact}\n\n{messageLabel}:\n{message}\n",
+      "filename": "forma-interior-brief.txt",
+      "source_change_invalidates_draft": true,
+      "draft_edit_invalidates_export_status": true,
+      "copy": "navigator.clipboard.writeText(current editor.value); success only after fulfilled promise",
+      "async_guard": "generation + exportRequest + visibility + exact editor value; stale completion status ignored",
+      "copy_error": "manual editor.focus()/select() with explicit instruction",
+      "download": "current edited value → text/plain;charset=utf-8 Blob → temporary anchor/download → revokeObjectURL after1000ms",
+      "download_truth": "passed to browser; on-device save not asserted",
+      "empty_draft": "whitespace rejected with editor focus",
+      "refresh": "after height change ScrollTrigger.refresh then restore saved scrollY with behavior instant",
+      "strings": {
+        "success": "Описание подготовлено. Проверьте текст и внесите нужные правки.",
+        "copySuccess": "Описание скопировано",
+        "copyError": "Не удалось скопировать автоматически. Выделите текст и скопируйте его вручную.",
+        "downloadSuccess": "TXT-файл передан браузеру для сохранения.",
+        "downloadError": "Не удалось подготовить TXT-файл. Скопируйте текст вручную.",
+        "draftEmpty": "Описание пустое. Добавьте текст перед копированием или сохранением."
+      }
+    },
+    "footer": "profile and3workinganchors; no provenance/legal placeholders; nav grid-column1/-1"
   },
   "qa_round1_correction": "BUG-QA-03: только media(max-width:359px), f-set minmax(0,1fr), child min-width:0 и H2clamp(1.75rem,8.75vw,2rem)=28px при320. Колонка номеров56px + gap16px/padding72px сохранена.",
   "seo": {
     "robots": "noindex,follow",
-    "canonical": "https://interior-studio-v2.dilsan881.chatgpt.site/interior-light-v2/",
+    "canonical": "https://sadikovsa.github.io/interior-light-v2/",
     "schema": "WebPage only; no invented Organization/LocalBusiness/reviews",
     "icons_manifest": "local; no service worker",
-    "pages": "prepared docs artifact; actual enablement blocked integration API403"
+    "pages": "existing standalone public Pages; this cleanup deployment pending root actual verification",
+    "title": "Форма — дизайн интерьера и предметные композиции",
+    "no_new_lighthouse": true
   },
   "demo": {
-    "case_count": 2,
-    "ai_labels": true,
-    "legal": "[НУЖЕН ТЕКСТ ЮРИСТА]",
-    "replacement_inventory": "interior-demo/.studio/v2/seo-qa-release/06-delivery.md#4"
+    "internal_concept_inventory_retained": true,
+    "visible_labels": false,
+    "legal_placeholder_removed": true,
+    "no_invented_client_or_real_business_claims": true,
+    "provenance": "assets/img/provenance.json and assets/img/content-r3/provenance.json retained",
+    "history": "history/ records preserve precleanup checkpoint/inventories"
   },
-  "verification": {
+  "historical_runtime_inventory": {
+    "paths": 175,
+    "sha256": "7a619e74dbb829cb788c252ca954495ff9fcc97126aa7fac7cf89b230bf26a72",
+    "these_documents_excluded": true,
+    "current": false
+  },
+  "runtime_inventory": {
+    "source_checkpoint_baseline": "1f0b4bbb65b890468c6b750ad28d517eec811960",
+    "public_runtime_sha256": "23fc7e4f83ed58b84ee1901c7513ae036d1f3ab8956687f71033a0dea5b1ecc3",
+    "method": "SHA256 UTF8 JSON of BUILD-INVENTORY.files; sort_keys=true, ensure_ascii=false, separators comma/colon",
+    "source": "SOURCE-CHECKPOINT.json / BUILD-INVENTORY.json",
+    "these_documents_excluded_from_public_build": true
+  },
+  "visible_label_policy": {
+    "owner_request_date": "2026-10-12",
+    "AI_DEMO_labels": false,
+    "legal_placeholder_display": false,
+    "source_provenance_retained": true,
+    "case_truth": "concepts and studies, not asserted completed client projects",
+    "override_scope": "only current3activeinterior-v2 plus comparison; historical source/reports retained",
+    "authorization": "work/interior-cleanup/00-request.md"
+  },
+  "scoped_css_additions": {
+    ".content-r3 .r3-brief:not([hidden])": "display:grid;gap:20px",
+    ".content-r3 .r3-brief h3": "margin-bottom:0",
+    ".content-r3 .r3-brief-actions": "display:flex;flex-wrap:wrap;gap:12px",
+    ".content-r3[class] .r3-footer--clean nav": "grid-column:1/-1"
+  },
+  "historical_verification": {
     "qa": "QA_PASS_WITH_NOTES",
     "review": "REVIEW_SHIP",
     "pm": "ACCEPTED",
@@ -283,6 +334,51 @@
       "review": "interior-demo/.studio/v2/seo-qa-release/05b-design-review.md",
       "delivery": "interior-demo/.studio/v2/seo-qa-release/06-delivery.md",
       "inventory": "interior-demo/.studio/v2/seo-qa-release/qa-recheck-evidence-index.json"
-    }
+    },
+    "current_scope": "historical fullSEO/QA before public cleanup; reused only unchanged contracts"
+  },
+  "verification": {
+    "scope": "focused current cleanup regression; no fullQA/Lighthouse/FPS/fieldINP rerun",
+    "report": "work/interior-cleanup/05-qa-report.md",
+    "status": "QA_PASS_WITH_NOTES",
+    "static": "work/interior-cleanup/static-result.json semanticmarkers0/localrefs/source-dist/deterministic builds/geometry/font/raster/vendor/main.js preserved",
+    "publication": "root proof required for cleanup deployed bytes; existing URLs do not prove new release",
+    "open_defects": {
+      "blocker": 0,
+      "major": 0,
+      "minor": 0
+    },
+    "environment": "headless Chromium151.0.7922.173 Linux existing Playwright-core local127.0.0.1:8877",
+    "matrix": {
+      "normal": 12,
+      "viewports": [
+        "320x844",
+        "390x844",
+        "768x900",
+        "1440x900"
+      ],
+      "fallback": 6,
+      "fallback_viewport": "390x844",
+      "functional_export_flows": 6
+    },
+    "fresh_scroll": "all12normal+6fallback nativewheel9chapters forward/backY0; nooverflow/markers",
+    "actual_edited_exports": "6real clipboardwrite/read exactmatch and6actual TXT downloads/readUTF8 exactmatch, Unicode/newline/emoji; current editor.value",
+    "clipboard_failure": "controlledNotAllowedError manual focus/select PASS6",
+    "clipboard_async_races": "heldpromise edit and originalfieldchange/regenerate PASS6x2",
+    "no_post_storage": "nonGET0/local-sessionstorage unchanged; Enter no navigation",
+    "not_checked": [
+      "dedicated Select-button action (shared handler tested via failure)",
+      "clipboard races separately in reducedcontext",
+      "new deployed bytes before root verification",
+      "new fullaxe/allcontrast/keyboard/targets",
+      "Safari/WebKit/Firefox/physicalphones/screenreaders/OSIME/toolbarzoom",
+      "all animationframes/FPS/perceptualsmoothness",
+      "new Lighthouse/fieldINP/CWV/securitypentest"
+    ],
+    "results": "work/interior-cleanup/qa/hosting-regression.json",
+    "readonly_results": "work/interior-cleanup/qa/static-readonly.json",
+    "capture_count": 54,
+    "reviewer": "separate fresh reviewer; not documentervisual inspection",
+    "motion_recording": "separate QA task; manifest/publicationproof recorded by root"
   }
 }

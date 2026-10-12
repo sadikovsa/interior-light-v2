@@ -1,14 +1,16 @@
 # Форма / Object — фактическая дизайн-система
 
-Оглавление: 1. Scope; 2. Типографика и цвет; 3. Главы и сетка; 4. Сцена; 5. Интерфейсы; 6. DEMO/SEO; 7. Проверки; 8. Токены.
+Оглавление: 1. Scope; 2. Типографика и цвет; 3. Главы и сетка; 4. Сцена; 5. Интерфейсы; 6. Публичные тексты/SEO; 7. Проверки; 8. Токены.
 
 ## 1. Scope
 
-Предметный каталог. Статичные HTML/CSS/vanilla JS без сборщика; фактический код документирован 11 октября 2026 после PM ACCEPTED, QA_PASS_WITH_NOTES и независимого REVIEW_SHIP. Владелец принял hero и content/additions comps исторически; это не новое утверждение финального runtime.
+Предметный каталог. Статичные HTML/CSS/vanilla JS; actual active source документирован 12 октября 2026. Сохранены принятые композиции hero, нижние системы, H1/H2, изображения, шрифты, геометрия и пространственный GSAP driver. Корневые snapshots синхронизирует диспетчер; этот документ относится к `projects/interiors/interior-light-v2/`.
 
-Hero сохраняет системные шрифты/глобальные токены. Нижняя система scoped `.content-r3--object` и использует свои `--c-*`. Старые три папки сохранены без изменений. HTML/fonts/images/vendor/main.js/tokens в QA round1 не менялись. BUG-QA-03: только media(max-width:359px), f-set minmax(0,1fr), child min-width:0 и H2clamp(1.75rem,8.75vw,2rem)=28px при 320. Колонка номеров 56px + gap16px/padding72px сохранена.
+Новый прямой запрос владельца разрешил убрать публичные AI/DEMO-подписи и технические заглушки. Это scoped override старой обязанности видимой маркировки только для трёх active v2 и comparison. Внутренние provenance/исторические отчёты сохранены; концепции не представлены завершёнными заказами реальных клиентов. Даты/контакты/отзывы/награды/юридические утверждения не придуманы.
 
-Current 175 input SHA256 `7a619e74dbb829cb788c252ca954495ff9fcc97126aa7fac7cf89b230bf26a72`. Эти DESIGN/design.json — non-runtime дополнения, исключённые из 175 измеренных файлов и Sites/Pages artifact. JSON содержит actual значения; не является повторным измерением.
+Текущий public-runtime inventory SHA256 `23fc7e4f83ed58b84ee1901c7513ae036d1f3ab8956687f71033a0dea5b1ecc3`; метод и source/build inventories — в SOURCE-CHECKPOINT.json. Исторический175-input hash `7a619e74dbb829cb788c252ca954495ff9fcc97126aa7fac7cf89b230bf26a72` относится к прежнему fullSEO/QA и не описывает новую HTML/form/SVG редактуру. DESIGN/design.json — non-runtime документы, исключённые из public dist.
+
+Сохранённая QA-коррекция11октября: BUG-QA-03: только media(max-width:359px), f-set minmax(0,1fr), child min-width:0 и H2clamp(1.75rem,8.75vw,2rem)=28px при320. Колонка номеров56px + gap16px/padding72px сохранена. Новая редактура не меняет её pixels/таймлайн. Старые first-generation варианты и архивы не правились.
 
 ## 2. Типографика и цвет
 
@@ -30,7 +32,7 @@ Mobile lower body17px/1.5/caption14/H232; ≥768 body18/caption15/H242; ≥1200 
 8. Вопросы к выбору
 9. Опишите композицию комнаты
 
-Это семь содержательных глав, два развёрнутых DEMO-кейса, FAQ4 и форма. Mobilechapter padding32px20px/gap20; tablet≥76840px32px/gap24; desktop≥120056px `max(64px,calc((100vw - 1312px)/2))`/gap32. Нижний gutter самостоятелен от глобального 80rem. Scroll-margin-top7rem; mobile одно/локальныепарные grid, tablet две и desktop асимметричныеполосы.
+Это семь содержательных глав, два развёрнутых интерьерных концепта, FAQ4 и форма. Mobilechapter padding32px20px/gap20; tablet≥76840px32px/gap24; desktop≥120056px `max(64px,calc((100vw - 1312px)/2))`/gap32. Нижний gutter самостоятелен от глобального 80rem. Scroll-margin-top7rem; mobile одно/локальныепарные grid, tablet две и desktop асимметричныеполосы.
 
 | Desktop≥1200 блок | Колонки |
 |---|---|
@@ -44,7 +46,7 @@ Mobile lower body17px/1.5/caption14/H232; ≥768 body18/caption15/H242; ≥1200 
 
 Атлас≥768:1.2fr1fr.85fr/gap20px, второй образец поднят на 45px; desktopgap40px/offsets70 и 20px, H2 атласа 84px/17ch. Indigo#3f4668/#edede7 и warm#d3c6b3/#191b1a/muted#513c2d меняют ритм главы. Крупное OBJECT отдельно от H1; H1clamp(2rem,2.25vw,3rem); desktophero bottom3rem. Коллекция различает столик 4/5, свет 3/5, поднос 4/5.
 
-Фото в `.r3-media` defaultaspect3/2/object-fit:cover; отдельные портреты/детали имеют собственные proportions/object-position/static-scale. SVG схемы contain4/3, bench-node2/3. Полный master открывается по обычной gallerylink; crop не scroll-анимация. Lazyasyncdecode/srcset/widthheight и видимые AI/DEMOcaptions/alt сохранены; внутренние provenanceledger не удалять.
+Фото в `.r3-media` defaultaspect3/2/object-fit:cover; отдельные портреты/детали имеют собственные proportions/object-position/static-scale. SVG схемы contain4/3, bench-node2/3. Полный master открывается по обычной gallerylink; crop не scroll-анимация. Lazy/async decode, srcset и width/height сохранены; caption/alt теперь содержат обычные описания без публичных AI/DEMO-пометок. Внутренний provenance-ledger не удалять.
 
 ## 4. Tunnel / Zoom-through
 
@@ -54,29 +56,41 @@ Local GSAP/ScrollTrigger3.13.0 в `assets/js/vendor/`; `main.js` владеет 
 
 Canvasmax(100vw,177.683svh)×max(100svh,56.28vw), центр translate(−50%,−50%). Stage100svh/min-height36rem, ≤60033rem. Image-load/filtersrefresh триггеров. ReducedmatchMediacleanup снимает pin/transforms/opacity, inert=false; transitionsinstant. NoJS статичная architecture+destinationfallback и полныйконтент. Эти фазы относятся к фактической геометрии, не универсальный preset.
 
-## 5. Компоненты
+## 5. Интерфейсы и локальное описание
 
-Menu<768 aria-expanded/Escape/focusrestore, WAAPIheight/opacity280ms, reduced0. Ссылки без подчёркивания; focusoutline3px/offset4, controls≥44px, formfields/submit≥52px.
+Сохранённые menu/filter/gallery/FAQ handlers до form block byte-identical с исходным checkpoint. Menu<768: aria-expanded/Escape/focus restore,280msheight/opacity/reduced0. Controls≥44px, поля/основная кнопка≥52px; ссылки без подчёркивания, focusoutline3px/offset4px. Фильтры aria-pressed/count, два проекта; firstcasechapter сfilter остаётся доступной для#projects→Все; после изменения высоты ScrollTrigger.refresh. NoJSвсе проекты видны, filterdisabled.
 
-Фильтры all, living, bedroom: aria-pressed/count, два кейса; first case chapter с filters остаётся видимой при скрытом case, чтобы#projects→Все восстановил список. После изменения height ScrollTrigger.refresh; noJSfiltersdisabled/allcasesvisible.
+Gallery16ссылок: native dialog; requested отдельно от displayedactive; nativeImage.decode + generation/dialog.open guard применяет image/alt/caption/counter одним завершённым выбором. Ошибка сохраняет lastgood/resetrequested/status. Closeinvalidate и guard delayedclose при reopen; Arrowkeys/Tabtrap/nativeEscape/focusrestore/swipe>|48|px. Dialogwidthmin(1200px,100vw−32px)/max94dvh; imagecontainmax70dvh; ≤600width100vw−20px/image54dvh. NoJSпрямые ссылки работают. FAQ4 native detailsopen; JSWAAPIheight/opacity280ms/cubic-bezier(.22,1,.36,1), cancel/reverse от текущего состояния; reducedinstant/noJSopen.
 
-Gallery16 ссылок, native dialog, requested отдельно от displayedactive. Next/Prev накапливаются относительно requested; после native Image.decode generation/dialog.open guard применяет image/alt/caption/counter одним выбором. Decodeerror сохраняет lastgood, resetrequestedactive/status; closeinvalidate+touchreset, delayedcloseevent не портит reopen. Arrowkeys/Tabtrap/nativeEscape/focusrestore, swipe горизонт>|48|px. Dialogwidthmin(1200px,100vw−32px), max94dvh/padding20/stickybar/overflowauto; imagecontainmax70dvh. ≤600width100vw−20px/padding12/image54dvh. NoJS прямая ссылка работает.
+**Новая форма** готовит описание, не отправляет заявку. Typebutton «Подготовить описание»; прежняя trim/name/message и email/phone7–15digits validation сохранена. Inlineerrors/aria-invalid/firstinvalidfocus; submitpreventDefault. После успеха появляется editabletextarea «Подготовленное описание» и «Скопировать», «Сохранить TXT», «Выделить текст». Шаблон `Композиция комнаты — Форма` содержит имя/контакт/исходноеописание; пользователь может переписать получившийся текст.
 
-FAQ4 native detailsopen в HTML; JS закрывает и реверсирует от текущих height/opacity, cancel предыдущего WAAPI,280ms/cubic-bezier(.22,1,.36,1). Reducedinstant, noJSopen. Localform typebutton: trimname/message, contactemail с@/точкой или телефон 7–15 цифр допустимыхсимволов; inlineerrors/aria-invalid/firstinvalidfocus, successstatusfocus. SubmitpreventDefault, нет POST/storage/backend. NoJScheckdisabled+честноепояснение.
+Экспорт берёт **текущее edited textarea.value**, а не исходные поля/кеш. Clipboardуспех только после fulfilledwriteText; rejection/недоступность дают инструкцию и focus/select для ручного копирования. generation/exportRequest/visibility/currentvalue guard не применяет устаревший asyncstatus после правок/регенерации/нового экспорта. Пробельный текст не копируется/не скачивается. Изменение исходных полей скрывает и очищает draft; его правки очищают exportstatus. НетPOST/network/backend/localStorage/sessionStorage. NoJSdisabledpreparation+«Чтобы подготовить описание, включите JavaScript».
 
-## 6. DEMO, SEO и доставка
+TXT: Blobtext/plain;charset=utf-8 по явному нажатию, temporaryanchor/downloadfilename `forma-interior-brief.txt`, anchorremove/revokeObjectURL через1000ms. Success «TXT-файл передан браузеру для сохранения» не утверждает сохранение на устройстве. Heightchangesrefresh/restore scrollY instant; лишних refresh при повторных скрытых пустых input нет.
 
-Кейсы/схемы/бренды вымышлены; AI изображения подписаны. `[НУЖЕН ТЕКСТ ЮРИСТА]` сохраняется. Реальный запуск требует всех замен [PM§4](../interior-demo/.studio/v2/seo-qa-release/06-delivery.md); owner разрешил публичный DEMO, не превращение его в настоящий бизнес.
+Добавлены только четыре scopedCSSправила: visiblebriefgrid/gap20px, briefH3margin-bottom0, flexactionswrap/gap12px, cleanfooter navgrid-column1/-1. Цвета/семейства/controlstyles наследуются от прежней темы; новый общий stylekit/таймлайн не добавлен. Footer —профиль и три работающихanchors.
 
-Уникальные title/description/canonical/OG/Twitter, neutralWebPageJSONLD, localicons/manifest/noSW. Canonical `https://interior-studio-v2.dilsan881.chatgpt.site/interior-light-v2/`. `noindex,follow` намерен, robots разрешает его получить, sitemap исключает noindexURL; нет fictitiousOrganization/LocalBusiness/reviews. Pagesdocs готов и локально проверен, APIenable403 «Resource not accessible by integration»: рассчитанный github.ioURL не live. SHA/privateSitepublicationproof фиксирует root отдельным release, не этот design документ.
+## 6. Публичные тексты и SEO
 
-## 7. QA, review и границы
+Маркировки AI/DEMO/«демонстрационные данные», публичная provenance-памятка, блок подготовки к запуску и legalplaceholder удалены по явному запросу. Caption/alt/aria/embeddedJSON/meta/manifest/SVGtitle имеют обычные описания; нейроизображения не названы фотографиями выполненных заказов. Содержательные cautions о замерах, материале, устойчивости и узлах сохранены. SVGизменяют только восемь titleстрок по трём пакетам; геометрия/ledger сохранились.
 
-[Fix03](../interior-demo/.studio/v2/seo-qa-release/03-fix-notes.md), [QA05a](../interior-demo/.studio/v2/seo-qa-release/05a-qa-recheck.md), [review05b](../interior-demo/.studio/v2/seo-qa-release/05b-design-review.md), [SEO04§8](../interior-demo/.studio/v2/seo-qa-release/04-seo-report.md), [PM06](../interior-demo/.studio/v2/seo-qa-release/06-delivery.md), [freshinventory](../interior-demo/.studio/v2/seo-qa-release/qa-recheck-evidence-index.json). Исторические FAIL/bugproof сохранены. Current native wheel3×390/1440 через 9 глав/назад Y0; rapidgallerynative-network6/6 +metadata/error/retry/reopen; noJS/reduced passed. Freshcontrast14targets прошли; Формы 320/360/390/768overflow0. Reviewer открыл шесть corrected кадров; прочие неизменные lower/motioncontracts reuseR3review, не новыйполныйпросмотр documenter.
+Title: «Форма — дизайн интерьера и предметные композиции». Canonical `https://sadikovsa.github.io/interior-light-v2/`. OG/Twitter/WebPageJSONLD/localicons/manifest, robots и намеренный `noindex,follow` сохранены. Отсутствие публичных пометок не означает фактологически подтверждённый коммерческий запуск; индексация/юридические данные/backend требуют отдельного scope. Не появился ложный Organization/LocalBusiness/review/реальный контакт.
 
-Final isolated LH13.5.0/Chromium151/Node24.19.0 localhostHTTP/no-store: mobilePerformance75/LCP4811.34ms; desktop98/1115.62ms; CLS0/A100/BP100/SEO66intentionalnoindex. Simulated4Gmobile412×823CPU4, desktop1440×900CPU1. Mobile LCP>4s —известный P2advisory, не good mobile CWV; hard численногобюджетав AC небыло. INP/field CWV/FPS неизмерено/TBT не INP. MP425/26.64/25.24s —исторические R3 записи, current playback проверен, correctedpixels внихнет.
+Три standalonePages уже существуют. Редактура12октября republish выполняется диспетчером после checks с отдельными source/pagesSHA и actualHTTP/browserproof; прежний API403 —исторический статус одного App, не текущий globalblocker. Существующий liveURL не доказывает загрузку новой редакции. PrivateSites обновляется отдельно, его sourceSHA отличается от GitHubSHA.
 
-НЕ ПРОВЕРЕНО: Firefox/WebKit/Safari, physical phones, screen readers/assistive tech, OSIME/softkeyboard, toolbar200%zoom, все motion/hover/gradientcontraststates, полный WCAG, субъективнаяплавность/FPS, field CWV/INP, новый publicPagesdeployment. Reflow640CSSpx/DPR2 не toolbarzoom; A100 неполнаясертификация. Это документирование доказательств, не повтор browserQA.
+## 7. Доказательства и границы
+
+Новая редактура: [запрос](../../../work/interior-cleanup/00-request.md), [copy](../../../work/interior-cleanup/02-copy.md), [buildnotes](../../../work/interior-cleanup/03-build-notes.md), [статическиеchecks](../../../work/interior-cleanup/static-result.json). Localrefs/uniqueIDs/JSON/XML/noindex, source/dist/deterministicbuild PASS; semanticpublicmarkers0. Staticfrozen geometry/H1/H2/raster/fonts/icons/vendor/main.js, SVGgeometry и CSS/JSunaffectedprefix подтверждены. HTMLbody/SVGtitles/formruntime изменены —не body/allassets byte-identical.
+
+[Текущий focused QA](../../../work/interior-cleanup/05-qa-report.md): **QA_PASS_WITH_NOTES**, BLOCKER0/MAJOR0/MINOR0. Chromium151/Linux:12fresh normal contexts (3×320×844/390×844/768×900/1440×900) и3noJS+3reduced390×844. Все прошли native wheel через9глав и обратноY0 без горизонтальногоoverflow/markers;6functionalflows390/1440 проверили меню/filter/gallery/FAQ и новую форму. Source/dist bytes и frozenbaseline paths проверены отдельно; новый body/SVGtitles/form не называются byte-identical.
+
+Настоящие clipboardwrite/read и TXTdownload/saveAs/readUTF8 в6flows совпали с текущим editedtextarea.value, включая Unicode/newline/emoji. Clipboardpermissions granted тестом. ControlledNotAllowedError дал focus/select и ручную инструкцию; пробельный draft не экспортировался. Два heldpromise race на каждомflow проверили edit и originalinput→regen без stalestatus. Изменение исходного поля инвалидировало output; Enter не навигировал, nonGET0/storageunchanged. Кнопка «Выделить текст» отдельно **НЕ ПРОВЕРЕНА**; общий selectText реально выполнен clipboardfailure-веткой. Exportasync races отдельно в reducedcontext не повторялись.
+
+Fresh48normalPNG+6fallbackPNG; QA реально открыл три кадра, независимый reviewer выполняется отдельно. [Rawresults](../../../work/interior-cleanup/qa/hosting-regression.json) и [readonlychecks](../../../work/interior-cleanup/qa/static-readonly.json). Documenter не запускал browser и не выдаёт сохранённые screenshots за собственное художественное review. Новые motionrecordings выполняет QA отдельно; dimensions/duration manifest и actualpublicationproof фиксирует root. Старый validation-only PASS не доказывал новый editable/exportworkflow.
+
+FullSEO/QA11октября остаются историческими: targetedbugfixes/nativewheel/review и изолированныеLH относятся к предыдущему artifact, reuse только неизменённых contracts. Нового LH/fullQA/FPS/fieldINP не запускали; прежний mobileLCP4.5–5.95s остаётся историческим ограничением, не измерением этой редакции. TBTнеINP/A100неполныйWCAG. Crossbrowser/physicalphones/screenreaders/OSIME/toolbarzoom/allmotioncontrast/FPS/fieldCWV/INP НЕ ПРОВЕРЕНО этим focusedrelease.
+
+Новая publicationverification/reviewer делается root отдельными доказательствами. Source/build/checkpoint inventories и provenance сохраняются внутри пакетов/history; publicdist исключает внутренние instructions/reports.
 
 ## 8. Глобальные tokens фактического hero
 

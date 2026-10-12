@@ -1,0 +1,564 @@
+{
+  "schema_version": 1,
+  "copied_files": 62,
+  "files": [
+    {
+      "path": "index.html",
+      "original_path": "interior-light-v2/index.html",
+      "original_bytes": 40763,
+      "copied_bytes": 40609,
+      "original_sha256": "ab4036fb6645ef19a46502f333f4eff0355ec9674f6883ed0af63559a2350288",
+      "copied_sha256": "95a394c9a79e20afaa4fbc80b7f70f3229a461d99bc487db29f0ad93d8691ca7",
+      "change": "head_metadata_base_only"
+    },
+    {
+      "path": "robots.txt",
+      "original_path": "interior-light-v2/robots.txt",
+      "original_bytes": 145,
+      "copied_bytes": 145,
+      "original_sha256": "3f6420c0e4a40d2e5c00ae798cb5d9b38210c904ed946a015e6600316b8974e3",
+      "copied_sha256": "3f6420c0e4a40d2e5c00ae798cb5d9b38210c904ed946a015e6600316b8974e3",
+      "change": "byte_identical"
+    },
+    {
+      "path": "sitemap.xml",
+      "original_path": "interior-light-v2/sitemap.xml",
+      "original_bytes": 166,
+      "copied_bytes": 166,
+      "original_sha256": "8d22e5c289583cb613a481e23b49fd9b06801ab3a38976575c61e3d167ceffc3",
+      "copied_sha256": "8d22e5c289583cb613a481e23b49fd9b06801ab3a38976575c61e3d167ceffc3",
+      "change": "byte_identical"
+    },
+    {
+      "path": "site.webmanifest",
+      "original_path": "interior-light-v2/site.webmanifest",
+      "original_bytes": 541,
+      "copied_bytes": 541,
+      "original_sha256": "558be50b177e4bad961c91357de3e43e35dd47bcf1a11fedded66f9a55ad3463",
+      "copied_sha256": "558be50b177e4bad961c91357de3e43e35dd47bcf1a11fedded66f9a55ad3463",
+      "change": "byte_identical"
+    },
+    {
+      "path": "DESIGN.md",
+      "original_path": "interior-light-v2/DESIGN.md",
+      "original_bytes": 13227,
+      "copied_bytes": 13227,
+      "original_sha256": "4795e719ca0607b91600c844b7af361100bcffc51edfc0604ce2d8ecfd9ddd82",
+      "copied_sha256": "4795e719ca0607b91600c844b7af361100bcffc51edfc0604ce2d8ecfd9ddd82",
+      "change": "byte_identical"
+    },
+    {
+      "path": ".studio/design.json",
+      "original_path": "interior-light-v2/.studio/design.json",
+      "original_bytes": 9212,
+      "copied_bytes": 9212,
+      "original_sha256": "d1a11c1744fbbaf4d81e8d5b523a6f3807b50863723356c2c90f0ddfb3320d9e",
+      "copied_sha256": "d1a11c1744fbbaf4d81e8d5b523a6f3807b50863723356c2c90f0ddfb3320d9e",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/css/base.css",
+      "original_path": "interior-light-v2/assets/css/base.css",
+      "original_bytes": 2088,
+      "copied_bytes": 2088,
+      "original_sha256": "eb49dafb7b95ea111597aa524d95039d3107bde4775e7d5d1b01dff6009a463c",
+      "copied_sha256": "eb49dafb7b95ea111597aa524d95039d3107bde4775e7d5d1b01dff6009a463c",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/css/components.css",
+      "original_path": "interior-light-v2/assets/css/components.css",
+      "original_bytes": 3379,
+      "copied_bytes": 3379,
+      "original_sha256": "d338815623079a1d428e2dcef2170dc574c32ca1cbda5ade1a4c7dc1a569f076",
+      "copied_sha256": "d338815623079a1d428e2dcef2170dc574c32ca1cbda5ade1a4c7dc1a569f076",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/css/content-fonts.css",
+      "original_path": "interior-light-v2/assets/css/content-fonts.css",
+      "original_bytes": 78,
+      "copied_bytes": 78,
+      "original_sha256": "4850230fd169966f151d5bba3074a3cf4f53095ce4bcff1a07d83c99f55c9ee6",
+      "copied_sha256": "4850230fd169966f151d5bba3074a3cf4f53095ce4bcff1a07d83c99f55c9ee6",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/css/content-interface.css",
+      "original_path": "interior-light-v2/assets/css/content-interface.css",
+      "original_bytes": 5726,
+      "copied_bytes": 5726,
+      "original_sha256": "ade8eef33cc73fec6b0cde13c82c188169b7a19c2663867f21a3182255247b77",
+      "copied_sha256": "ade8eef33cc73fec6b0cde13c82c188169b7a19c2663867f21a3182255247b77",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/css/content-layout.css",
+      "original_path": "interior-light-v2/assets/css/content-layout.css",
+      "original_bytes": 20024,
+      "copied_bytes": 20024,
+      "original_sha256": "23cb5cd3520cc37267d89c96f74e7cb2c717cb4c23e8e134036b14ded2206a78",
+      "copied_sha256": "23cb5cd3520cc37267d89c96f74e7cb2c717cb4c23e8e134036b14ded2206a78",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/css/layout.css",
+      "original_path": "interior-light-v2/assets/css/layout.css",
+      "original_bytes": 4395,
+      "copied_bytes": 4395,
+      "original_sha256": "4cb634501b4522167f6ce268da3523b33eebe356894afcdb47e9fadc520af690",
+      "copied_sha256": "4cb634501b4522167f6ce268da3523b33eebe356894afcdb47e9fadc520af690",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/css/motion.css",
+      "original_path": "interior-light-v2/assets/css/motion.css",
+      "original_bytes": 4298,
+      "copied_bytes": 4298,
+      "original_sha256": "b742d059413fec2e633cfd691f192faf5c566f0dac83e2b7a80f8763979119e0",
+      "copied_sha256": "b742d059413fec2e633cfd691f192faf5c566f0dac83e2b7a80f8763979119e0",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/css/tokens.css",
+      "original_path": "interior-light-v2/assets/css/tokens.css",
+      "original_bytes": 1260,
+      "copied_bytes": 1260,
+      "original_sha256": "1d3f0a3a41f258e0e4e8ac2369d7dc28e203cbd5a2ee38b046abe0fda72ab45d",
+      "copied_sha256": "1d3f0a3a41f258e0e4e8ac2369d7dc28e203cbd5a2ee38b046abe0fda72ab45d",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/fonts/golostext-OFL.txt",
+      "original_path": "interior-light-v2/assets/fonts/golostext-OFL.txt",
+      "original_bytes": 4394,
+      "copied_bytes": 4394,
+      "original_sha256": "ff532f9e8789f09a9fdffc3c0954eedfb0a48be77b2e2eb90f5f82e4f347f50c",
+      "copied_sha256": "ff532f9e8789f09a9fdffc3c0954eedfb0a48be77b2e2eb90f5f82e4f347f50c",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/fonts/golostext-cyrillic-ext.woff2",
+      "original_path": "interior-light-v2/assets/fonts/golostext-cyrillic-ext.woff2",
+      "original_bytes": 17508,
+      "copied_bytes": 17508,
+      "original_sha256": "70cf502d77aa23c8a573db8853f20a8db705d18414d170f257a9e939113aad47",
+      "copied_sha256": "70cf502d77aa23c8a573db8853f20a8db705d18414d170f257a9e939113aad47",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/fonts/golostext-cyrillic.woff2",
+      "original_path": "interior-light-v2/assets/fonts/golostext-cyrillic.woff2",
+      "original_bytes": 22032,
+      "copied_bytes": 22032,
+      "original_sha256": "17d048ca05cb1218af3c0d6dcdf882989e6d1cc5dcb598ea50eaf54850ff7229",
+      "copied_sha256": "17d048ca05cb1218af3c0d6dcdf882989e6d1cc5dcb598ea50eaf54850ff7229",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/fonts/golostext-latin.woff2",
+      "original_path": "interior-light-v2/assets/fonts/golostext-latin.woff2",
+      "original_bytes": 37916,
+      "copied_bytes": 37916,
+      "original_sha256": "9a69d0aa4734c4022224c002a3d944a702e0204972a49d892789f5668b922c2a",
+      "copied_sha256": "9a69d0aa4734c4022224c002a3d944a702e0204972a49d892789f5668b922c2a",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/fonts/golostext.css",
+      "original_path": "interior-light-v2/assets/fonts/golostext.css",
+      "original_bytes": 850,
+      "copied_bytes": 850,
+      "original_sha256": "23f4c03f627f3b7a96231934ef44196515f1fd6aa8e2e2484bf7e89457e1312c",
+      "copied_sha256": "23f4c03f627f3b7a96231934ef44196515f1fd6aa8e2e2484bf7e89457e1312c",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/fonts/manifest.json",
+      "original_path": "interior-light-v2/assets/fonts/manifest.json",
+      "original_bytes": 1660,
+      "copied_bytes": 1660,
+      "original_sha256": "d82e928ff68691339d26e8806ffb6cefdbb4221d50122af03e9e156d0d56ea04",
+      "copied_sha256": "d82e928ff68691339d26e8806ffb6cefdbb4221d50122af03e9e156d0d56ea04",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/fonts/unbounded-OFL.txt",
+      "original_path": "interior-light-v2/assets/fonts/unbounded-OFL.txt",
+      "original_bytes": 4392,
+      "copied_bytes": 4392,
+      "original_sha256": "31e5d4e83955e7103c34570dd49b0570ef490800bd65b42923c0dd02445263b3",
+      "copied_sha256": "31e5d4e83955e7103c34570dd49b0570ef490800bd65b42923c0dd02445263b3",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/fonts/unbounded-cyrillic-ext.woff2",
+      "original_path": "interior-light-v2/assets/fonts/unbounded-cyrillic-ext.woff2",
+      "original_bytes": 1840,
+      "copied_bytes": 1840,
+      "original_sha256": "f25c38d28da3d57b68419590e7165c382e99bab3548baf4a498af93f87d3e518",
+      "copied_sha256": "f25c38d28da3d57b68419590e7165c382e99bab3548baf4a498af93f87d3e518",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/fonts/unbounded-cyrillic.woff2",
+      "original_path": "interior-light-v2/assets/fonts/unbounded-cyrillic.woff2",
+      "original_bytes": 31424,
+      "copied_bytes": 31424,
+      "original_sha256": "e30bf6a6063b6a47232bbd657e24c7cf4fdaf76fc2c50d92d9ee63e2ad2087cf",
+      "copied_sha256": "e30bf6a6063b6a47232bbd657e24c7cf4fdaf76fc2c50d92d9ee63e2ad2087cf",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/fonts/unbounded-latin.woff2",
+      "original_path": "interior-light-v2/assets/fonts/unbounded-latin.woff2",
+      "original_bytes": 50904,
+      "copied_bytes": 50904,
+      "original_sha256": "22f9b928aa3928a896340422b54d690fbb5875c30eae4c106f029c61f2289fd6",
+      "copied_sha256": "22f9b928aa3928a896340422b54d690fbb5875c30eae4c106f029c61f2289fd6",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/fonts/unbounded.css",
+      "original_path": "interior-light-v2/assets/fonts/unbounded.css",
+      "original_bytes": 847,
+      "copied_bytes": 847,
+      "original_sha256": "80f73a6f18445ae12e3460b24d2b3a94fb2b29c5498a311a4956df509e6d6983",
+      "copied_sha256": "80f73a6f18445ae12e3460b24d2b3a94fb2b29c5498a311a4956df509e6d6983",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/icons/apple-touch-icon.png",
+      "original_path": "interior-light-v2/assets/icons/apple-touch-icon.png",
+      "original_bytes": 1056,
+      "copied_bytes": 1056,
+      "original_sha256": "6ed052beb3ab0377f05be80ba36a4340cd651d7c92643e1a0ddcd7356ee280bd",
+      "copied_sha256": "6ed052beb3ab0377f05be80ba36a4340cd651d7c92643e1a0ddcd7356ee280bd",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/icons/favicon-16.png",
+      "original_path": "interior-light-v2/assets/icons/favicon-16.png",
+      "original_bytes": 307,
+      "copied_bytes": 307,
+      "original_sha256": "a5fbd8aa9a054c42e33143badd8f7ed510258bd9d4af92a0382710c96b850579",
+      "copied_sha256": "a5fbd8aa9a054c42e33143badd8f7ed510258bd9d4af92a0382710c96b850579",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/icons/favicon-32.png",
+      "original_path": "interior-light-v2/assets/icons/favicon-32.png",
+      "original_bytes": 414,
+      "copied_bytes": 414,
+      "original_sha256": "f14495a159419110d751120c586ebacc614eb93c3fe9ae6285cd6c3b47e4697c",
+      "copied_sha256": "f14495a159419110d751120c586ebacc614eb93c3fe9ae6285cd6c3b47e4697c",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/icons/favicon.ico",
+      "original_path": "interior-light-v2/assets/icons/favicon.ico",
+      "original_bytes": 1206,
+      "copied_bytes": 1206,
+      "original_sha256": "cd0cd598f657b0f6bf04443316e35bd0bfaac2704da3e1affd4e2ae2c1a09ebd",
+      "copied_sha256": "cd0cd598f657b0f6bf04443316e35bd0bfaac2704da3e1affd4e2ae2c1a09ebd",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/icons/favicon.svg",
+      "original_path": "interior-light-v2/assets/icons/favicon.svg",
+      "original_bytes": 174,
+      "copied_bytes": 174,
+      "original_sha256": "1bae03185b157ec8357c9b37eef93607fbb2e0adc185c3a6a9fb741cdccd8475",
+      "copied_sha256": "1bae03185b157ec8357c9b37eef93607fbb2e0adc185c3a6a9fb741cdccd8475",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/icons/icon-192.png",
+      "original_path": "interior-light-v2/assets/icons/icon-192.png",
+      "original_bytes": 1086,
+      "copied_bytes": 1086,
+      "original_sha256": "ef5d45642cda764a2dc68264704b6bddc32d46c1f6ec7c3263675655b4e0a3d8",
+      "copied_sha256": "ef5d45642cda764a2dc68264704b6bddc32d46c1f6ec7c3263675655b4e0a3d8",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/icons/icon-512.png",
+      "original_path": "interior-light-v2/assets/icons/icon-512.png",
+      "original_bytes": 1923,
+      "copied_bytes": 1923,
+      "original_sha256": "f4812a9d33bf02af1d256c5a7338937b1a013eb0a87522402019204e9cc12955",
+      "copied_sha256": "f4812a9d33bf02af1d256c5a7338937b1a013eb0a87522402019204e9cc12955",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/atlas-1536.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/atlas-1536.webp",
+      "original_bytes": 233436,
+      "copied_bytes": 233436,
+      "original_sha256": "530d4c3a10c31364b3022c62ba142ace48023c038daf8d08bd7cf3d222c1ec98",
+      "copied_sha256": "530d4c3a10c31364b3022c62ba142ace48023c038daf8d08bd7cf3d222c1ec98",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/atlas-640.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/atlas-640.webp",
+      "original_bytes": 37744,
+      "copied_bytes": 37744,
+      "original_sha256": "bd6d6998dc2260c6ff1d532fd0f488ccacb4843a87f0555669d02506a3940b9a",
+      "copied_sha256": "bd6d6998dc2260c6ff1d532fd0f488ccacb4843a87f0555669d02506a3940b9a",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/atlas-960.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/atlas-960.webp",
+      "original_bytes": 94058,
+      "copied_bytes": 94058,
+      "original_sha256": "17d3c4b5ac26b0f46b114679931ebacc86df3885d29ed24245e8f8655ea61b57",
+      "copied_sha256": "17d3c4b5ac26b0f46b114679931ebacc86df3885d29ed24245e8f8655ea61b57",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/document.svg",
+      "original_path": "interior-light-v2/assets/img/content-r3/document.svg",
+      "original_bytes": 1148,
+      "copied_bytes": 1148,
+      "original_sha256": "d0a35b84cb3936ca26e1b5c8d64edeadb2b383e732e1acde5ee4d44499ed4be1",
+      "copied_sha256": "d0a35b84cb3936ca26e1b5c8d64edeadb2b383e732e1acde5ee4d44499ed4be1",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/objects-1536.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/objects-1536.webp",
+      "original_bytes": 173064,
+      "copied_bytes": 173064,
+      "original_sha256": "c2fbe91d5d1c9a201c73e8c4c72fcb3f6d27918e97d00879fbecc77d52a248a1",
+      "copied_sha256": "c2fbe91d5d1c9a201c73e8c4c72fcb3f6d27918e97d00879fbecc77d52a248a1",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/objects-640.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/objects-640.webp",
+      "original_bytes": 29594,
+      "copied_bytes": 29594,
+      "original_sha256": "5d21b1433b1a7713d8d8753763d181e5253e790f325c1ffc1f1ace7208454f16",
+      "copied_sha256": "5d21b1433b1a7713d8d8753763d181e5253e790f325c1ffc1f1ace7208454f16",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/objects-960.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/objects-960.webp",
+      "original_bytes": 72156,
+      "copied_bytes": 72156,
+      "original_sha256": "c6f99fd1181b2eaa42edf3204d365d9d23d4ad0fb372507219fd6e24209b800b",
+      "copied_sha256": "c6f99fd1181b2eaa42edf3204d365d9d23d4ad0fb372507219fd6e24209b800b",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/placement-centre-1448.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/placement-centre-1448.webp",
+      "original_bytes": 272926,
+      "copied_bytes": 272926,
+      "original_sha256": "cd213fc33c8d693a7a7bfcb1f03d4d3aba5f36112507be0127c49abb0a33ee38",
+      "copied_sha256": "cd213fc33c8d693a7a7bfcb1f03d4d3aba5f36112507be0127c49abb0a33ee38",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/placement-centre-640.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/placement-centre-640.webp",
+      "original_bytes": 59434,
+      "copied_bytes": 59434,
+      "original_sha256": "0be038bf4006d75fa0cfb99e495883fab82bd39880727f5676d9dfdb6007d292",
+      "copied_sha256": "0be038bf4006d75fa0cfb99e495883fab82bd39880727f5676d9dfdb6007d292",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/placement-centre-960.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/placement-centre-960.webp",
+      "original_bytes": 138664,
+      "copied_bytes": 138664,
+      "original_sha256": "261b37c3cb5e6f9c2463b41e0e3533793656118b94b3d609967a7a6f010b5447",
+      "copied_sha256": "261b37c3cb5e6f9c2463b41e0e3533793656118b94b3d609967a7a6f010b5447",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/placement-wall-1448.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/placement-wall-1448.webp",
+      "original_bytes": 188342,
+      "copied_bytes": 188342,
+      "original_sha256": "a984013e78f49c1b735da0926252248a23e1ead921b9b27b6be014a9e074a09f",
+      "copied_sha256": "a984013e78f49c1b735da0926252248a23e1ead921b9b27b6be014a9e074a09f",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/placement-wall-640.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/placement-wall-640.webp",
+      "original_bytes": 42718,
+      "copied_bytes": 42718,
+      "original_sha256": "3d014babcc76d5f70bdfe9a15b6d549db97b18c85840161137143531c739bcfc",
+      "copied_sha256": "3d014babcc76d5f70bdfe9a15b6d549db97b18c85840161137143531c739bcfc",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/placement-wall-960.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/placement-wall-960.webp",
+      "original_bytes": 95786,
+      "copied_bytes": 95786,
+      "original_sha256": "1e5bc990c8b7518ee480aed7f2366a9bad592bf610b67ea554f45c7878ba7523",
+      "copied_sha256": "1e5bc990c8b7518ee480aed7f2366a9bad592bf610b67ea554f45c7878ba7523",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/provenance.json",
+      "original_path": "interior-light-v2/assets/img/content-r3/provenance.json",
+      "original_bytes": 5422,
+      "copied_bytes": 5422,
+      "original_sha256": "fc254295eb6e2c80e2a7cc4bb9814cd5ee8def254de5d87e815bc0d56ecd2e68",
+      "copied_sha256": "fc254295eb6e2c80e2a7cc4bb9814cd5ee8def254de5d87e815bc0d56ecd2e68",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/supports-1536.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/supports-1536.webp",
+      "original_bytes": 133730,
+      "copied_bytes": 133730,
+      "original_sha256": "473ddc045da40b50415d11d64ff4eb80c99435c4a37ed9150c3ec0cc4c353cec",
+      "copied_sha256": "473ddc045da40b50415d11d64ff4eb80c99435c4a37ed9150c3ec0cc4c353cec",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/supports-640.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/supports-640.webp",
+      "original_bytes": 34796,
+      "copied_bytes": 34796,
+      "original_sha256": "b0950f0082268bcc7ec100c95107ece84887d828113fefe3611fbe95ec6ee706",
+      "copied_sha256": "b0950f0082268bcc7ec100c95107ece84887d828113fefe3611fbe95ec6ee706",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/content-r3/supports-960.webp",
+      "original_path": "interior-light-v2/assets/img/content-r3/supports-960.webp",
+      "original_bytes": 70010,
+      "copied_bytes": 70010,
+      "original_sha256": "4afa93e842e77cfe559226963e5503d39fa8d1a58872307405ca94caa8efffb9",
+      "copied_sha256": "4afa93e842e77cfe559226963e5503d39fa8d1a58872307405ca94caa8efffb9",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/hero-1672.webp",
+      "original_path": "interior-light-v2/assets/img/hero-1672.webp",
+      "original_bytes": 123306,
+      "copied_bytes": 123306,
+      "original_sha256": "5be068ee6c8842e21482f3470e951232b5d59c6574efed3a8fb79352a2953468",
+      "copied_sha256": "5be068ee6c8842e21482f3470e951232b5d59c6574efed3a8fb79352a2953468",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/hero-960.webp",
+      "original_path": "interior-light-v2/assets/img/hero-960.webp",
+      "original_bytes": 46608,
+      "copied_bytes": 46608,
+      "original_sha256": "675403e9bd894647881bbcc0856e2e2a932ce2dc217d37244c0a4212a8189716",
+      "copied_sha256": "675403e9bd894647881bbcc0856e2e2a932ce2dc217d37244c0a4212a8189716",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/interior-1672.webp",
+      "original_path": "interior-light-v2/assets/img/interior-1672.webp",
+      "original_bytes": 219874,
+      "copied_bytes": 219874,
+      "original_sha256": "823bf80a3e1732318015155f42a8946d7840cb69d3e6dda25ba1e200cb10bfcd",
+      "copied_sha256": "823bf80a3e1732318015155f42a8946d7840cb69d3e6dda25ba1e200cb10bfcd",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/interior-960.webp",
+      "original_path": "interior-light-v2/assets/img/interior-960.webp",
+      "original_bytes": 87484,
+      "copied_bytes": 87484,
+      "original_sha256": "f31eb3dc693945f4112d8fb3e7b07967b2a30071cc4ab580199985806a781fd2",
+      "copied_sha256": "f31eb3dc693945f4112d8fb3e7b07967b2a30071cc4ab580199985806a781fd2",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/mineral-bedroom-1448.webp",
+      "original_path": "interior-light-v2/assets/img/mineral-bedroom-1448.webp",
+      "original_bytes": 227176,
+      "copied_bytes": 227176,
+      "original_sha256": "cbcb1556ed78238a2390eae627d1c139c88ba201766efdd4d5cffb4aa2b44df4",
+      "copied_sha256": "cbcb1556ed78238a2390eae627d1c139c88ba201766efdd4d5cffb4aa2b44df4",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/provenance.json",
+      "original_path": "interior-light-v2/assets/img/provenance.json",
+      "original_bytes": 636,
+      "copied_bytes": 636,
+      "original_sha256": "627b60d27e7a1beb7ab8de1988b01193ec1568ca1743861b4319f6c5cd17639e",
+      "copied_sha256": "627b60d27e7a1beb7ab8de1988b01193ec1568ca1743861b4319f6c5cd17639e",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/img/timber-house-1448.webp",
+      "original_path": "interior-light-v2/assets/img/timber-house-1448.webp",
+      "original_bytes": 312718,
+      "copied_bytes": 312718,
+      "original_sha256": "3eb998246cfcbb17defed335507368fd0abf1c278efbf089f9202ccd9d02193e",
+      "copied_sha256": "3eb998246cfcbb17defed335507368fd0abf1c278efbf089f9202ccd9d02193e",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/js/content.js",
+      "original_path": "interior-light-v2/assets/js/content.js",
+      "original_bytes": 5861,
+      "copied_bytes": 5861,
+      "original_sha256": "274fc563465a1abdb2272a8bbe0ebea0207a2af9f4b20019dff68ddbc5272abe",
+      "copied_sha256": "274fc563465a1abdb2272a8bbe0ebea0207a2af9f4b20019dff68ddbc5272abe",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/js/main.js",
+      "original_path": "interior-light-v2/assets/js/main.js",
+      "original_bytes": 5491,
+      "copied_bytes": 5491,
+      "original_sha256": "4c7c041519992885808a310a340ae88c4eef7ee1f89a855759a368b9e54405bb",
+      "copied_sha256": "4c7c041519992885808a310a340ae88c4eef7ee1f89a855759a368b9e54405bb",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/js/vendor/ScrollTrigger.min.js",
+      "original_path": "interior-light-v2/assets/js/vendor/ScrollTrigger.min.js",
+      "original_bytes": 44157,
+      "copied_bytes": 44157,
+      "original_sha256": "308219390e5e3b84cda0c481e70caa9820883ae10bda44e6e9a149a81aac4b3f",
+      "copied_sha256": "308219390e5e3b84cda0c481e70caa9820883ae10bda44e6e9a149a81aac4b3f",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/js/vendor/gsap-package.json",
+      "original_path": "interior-light-v2/assets/js/vendor/gsap-package.json",
+      "original_bytes": 1676,
+      "copied_bytes": 1676,
+      "original_sha256": "cba3c19e7852db942fcbd895c8a05e791490e72a20e28c228b86ed4d268615c4",
+      "copied_sha256": "cba3c19e7852db942fcbd895c8a05e791490e72a20e28c228b86ed4d268615c4",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/js/vendor/gsap.min.js",
+      "original_path": "interior-light-v2/assets/js/vendor/gsap.min.js",
+      "original_bytes": 72435,
+      "copied_bytes": 72435,
+      "original_sha256": "96c01b81f44a3290e2b4532f55e2c9534b2adc43273a19f3756b2cb41f0fd0b6",
+      "copied_sha256": "96c01b81f44a3290e2b4532f55e2c9534b2adc43273a19f3756b2cb41f0fd0b6",
+      "change": "byte_identical"
+    },
+    {
+      "path": "assets/masks/environment.svg",
+      "original_path": "interior-light-v2/assets/masks/environment.svg",
+      "original_bytes": 572,
+      "copied_bytes": 572,
+      "original_sha256": "0f9d2a01b9111cb544d447d5735f13d5242bb535cf9c817f1046db016fc8a31d",
+      "copied_sha256": "0f9d2a01b9111cb544d447d5735f13d5242bb535cf9c817f1046db016fc8a31d",
+      "change": "byte_identical"
+    }
+  ]
+}

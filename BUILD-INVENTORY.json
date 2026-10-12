@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "index.html",
-      "bytes": 40609,
-      "sha256": "95a394c9a79e20afaa4fbc80b7f70f3229a461d99bc487db29f0ad93d8691ca7"
+      "bytes": 40743,
+      "sha256": "32e7acc82f882bf15420a2c0cb377b87c76059e908b371fc77c9624789d9930e"
     },
     {
       "path": "robots.txt",
@@ -22,8 +22,8 @@
     },
     {
       "path": "site.webmanifest",
-      "bytes": 541,
-      "sha256": "558be50b177e4bad961c91357de3e43e35dd47bcf1a11fedded66f9a55ad3463"
+      "bytes": 528,
+      "sha256": "0544220cc731ad480c3712b6783447754a22cfc44fce89e1e355b93a22f190b1"
     },
     {
       "path": ".nojekyll",
@@ -47,8 +47,8 @@
     },
     {
       "path": "assets/css/content-interface.css",
-      "bytes": 5726,
-      "sha256": "ade8eef33cc73fec6b0cde13c82c188169b7a19c2663867f21a3182255247b77"
+      "bytes": 6054,
+      "sha256": "edc4de2ad959cb2051f15a7797fa6c0a34c6d6e6acc46565982cf8483acb8f2a"
     },
     {
       "path": "assets/css/content-layout.css",
@@ -177,8 +177,8 @@
     },
     {
       "path": "assets/img/content-r3/document.svg",
-      "bytes": 1148,
-      "sha256": "d0a35b84cb3936ca26e1b5c8d64edeadb2b383e732e1acde5ee4d44499ed4be1"
+      "bytes": 1109,
+      "sha256": "32723740fb71fad4e0e24a386e4753851f43c4e49ab663efeb0a606539a7a419"
     },
     {
       "path": "assets/img/content-r3/objects-1536.webp",
@@ -272,8 +272,8 @@
     },
     {
       "path": "assets/js/content.js",
-      "bytes": 5861,
-      "sha256": "274fc563465a1abdb2272a8bbe0ebea0207a2af9f4b20019dff68ddbc5272abe"
+      "bytes": 8755,
+      "sha256": "6330d153a5accd0d7bee276d7b1a22f90ac5bfb346367f3c11ad43e2082484b3"
     },
     {
       "path": "assets/js/main.js",

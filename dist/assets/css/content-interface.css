@@ -62,3 +62,9 @@
 @media (prefers-reduced-motion:reduce) {
  .content-r3 :is(button,a,summary), .r3-dialog button { transition:none; }
 }
+
+/* Editable description: the existing theme/type rules supply every control. */
+.content-r3 .r3-brief:not([hidden]) { display:grid; gap:20px; }
+.content-r3 .r3-brief h3 { margin-bottom:0; }
+.content-r3 .r3-brief-actions { display:flex; flex-wrap:wrap; gap:12px; }
+.content-r3[class] .r3-footer--clean nav { grid-column:1/-1; }
