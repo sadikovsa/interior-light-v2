@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# DEMO pages use HTML noindex,follow; allow crawling to read it.
+# This file applies only when deployed at the host root.

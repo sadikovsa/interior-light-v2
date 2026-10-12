@@ -1,0 +1,44 @@
+[
+  {
+    "family": "Unbounded",
+    "subset": "cyrillic-ext",
+    "file": "unbounded-cyrillic-ext.woff2",
+    "source": "https://fonts.gstatic.com/s/unbounded/v12/Yq6W-LOTXCb04q32xlpwtsZfrxE.woff2",
+    "sha256": "f25c38d28da3d57b68419590e7165c382e99bab3548baf4a498af93f87d3e518"
+  },
+  {
+    "family": "Unbounded",
+    "subset": "cyrillic",
+    "file": "unbounded-cyrillic.woff2",
+    "source": "https://fonts.gstatic.com/s/unbounded/v12/Yq6W-LOTXCb04q32xlpwv8ZfrxE.woff2",
+    "sha256": "e30bf6a6063b6a47232bbd657e24c7cf4fdaf76fc2c50d92d9ee63e2ad2087cf"
+  },
+  {
+    "family": "Unbounded",
+    "subset": "latin",
+    "file": "unbounded-latin.woff2",
+    "source": "https://fonts.gstatic.com/s/unbounded/v12/Yq6W-LOTXCb04q32xlpwu8Zf.woff2",
+    "sha256": "22f9b928aa3928a896340422b54d690fbb5875c30eae4c106f029c61f2289fd6"
+  },
+  {
+    "family": "Golos Text",
+    "subset": "cyrillic-ext",
+    "file": "golostext-cyrillic-ext.woff2",
+    "source": "https://fonts.gstatic.com/s/golostext/v7/q5uCsoe9Lv5t7Meb31EcEx58hLxR.woff2",
+    "sha256": "70cf502d77aa23c8a573db8853f20a8db705d18414d170f257a9e939113aad47"
+  },
+  {
+    "family": "Golos Text",
+    "subset": "cyrillic",
+    "file": "golostext-cyrillic.woff2",
+    "source": "https://fonts.gstatic.com/s/golostext/v7/q5uCsoe9Lv5t7Meb31EcExd8hLxR.woff2",
+    "sha256": "17d048ca05cb1218af3c0d6dcdf882989e6d1cc5dcb598ea50eaf54850ff7229"
+  },
+  {
+    "family": "Golos Text",
+    "subset": "latin",
+    "file": "golostext-latin.woff2",
+    "source": "https://fonts.gstatic.com/s/golostext/v7/q5uCsoe9Lv5t7Meb31EcExN8hA.woff2",
+    "sha256": "9a69d0aa4734c4022224c002a3d944a702e0204972a49d892789f5668b922c2a"
+  }
+]
