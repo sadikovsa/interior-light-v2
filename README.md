@@ -10,7 +10,7 @@
 
 ## Публикация
 
-Запланированный репозиторий: `sadikovsa/interior-light-v2`. Запланированный Pages URL: `https://sadikovsa.github.io/interior-light-v2/`. **На момент подготовки пакета публикация не проверена**; наличие URL в metadata не означает live deployment. Root отдельно создаёт/проверяет репозиторий и Pages.
+Опубликованный репозиторий: [https://github.com/sadikovsa/interior-light-v2](https://github.com/sadikovsa/interior-light-v2). Рабочий Pages: [https://sadikovsa.github.io/interior-light-v2/](https://sadikovsa.github.io/interior-light-v2/). **Публикация проверена по HTTPS и в Chromium390/1440**, native scroll в обе стороны, функции/noJS/reduced-motion. Все58доступныхHTTPресурса совпадают с проверенным dist по SHA256; `.nojekyll` — Git control, неHTTPasset. [PUBLICATION.json](PUBLICATION.json) хранит точные runtime/source и Pages SHA. Полные proof находятся в `codex_studio/projects/interiors/qa-publication/`.
 
 `main` содержит редактируемые исходники, `DESIGN.md`, `.studio/design.json`, provenance ledgers, checkpoint и inventories. `gh-pages` должен содержать только файлы из `dist/`, с `.nojekyll` в корне. Сборка исключает `.studio`, дизайн/историю/checkpoint/inventories и `provenance.json` из публичного сайта. Локальные лицензии шрифтов и vendor-файлы остаются в `dist/assets/`.
 

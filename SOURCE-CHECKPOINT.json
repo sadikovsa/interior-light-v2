@@ -9,9 +9,13 @@
   "root_checkpoint_retained": true,
   "planned_repository": "sadikovsa/interior-light-v2",
   "planned_pages_url": "https://sadikovsa.github.io/interior-light-v2/",
-  "publication_status": "prepared_not_verified",
+  "publication_status": "published_verified",
   "html_body_original_sha256": "bd3e86af78c78b820437d5b76b56dda2739607d9f639ec1acad6d0fa9db70f2b",
   "metadata_change": "private origin plus variant path replaced with this standalone Pages base; UI unchanged",
   "source_inventory": "SOURCE-INVENTORY.json",
-  "public_build_inventory": "BUILD-INVENTORY.json"
+  "public_build_inventory": "BUILD-INVENTORY.json",
+  "live_pages_url": "https://sadikovsa.github.io/interior-light-v2/",
+  "public_runtime_source_commit": "0044ab13c4bb30114f231194992ba7e8620e5bd0",
+  "pages_release_commit": "bd353fde3ec7634986f64507a6b778b5334d3bf0",
+  "publication_proof": "PUBLICATION.json"
 }
